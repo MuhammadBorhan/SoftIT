@@ -8,15 +8,15 @@ const Main = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      return window.scrollY > 50 ? setBg(true) : setBg(false);
+      return window.scrollY > 30 ? setBg(true) : setBg(false);
     });
   });
   return (
     <>
       <header
         className={`${
-          bg ? "bg-indigo-700 h-20" : "h-20"
-        } fixed top-0 w-full text-white bg-black z-10 transition-all duration-300`}
+          bg ? "bg-indigo-700 text-white h-20" : "h-20"
+        } fixed top-0 w-full z-10 transition-all duration-300`}
       >
         <div className="px-6 md:px-12 h-full flex items-center justify-between">
           {/* logo */}
