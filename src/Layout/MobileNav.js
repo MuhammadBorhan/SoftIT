@@ -32,8 +32,11 @@ const MobileNav = () => {
     },
   };
   return (
-    <nav className="">
-      <div onClick={() => setIsOpen(true)} className="cursor-pointer">
+    <nav className="z-50">
+      <div
+        onClick={() => setIsOpen(true)}
+        className="cursor-pointer text-black"
+      >
         <AiOutlineMenu className="w-6 h-6" />
       </div>
 
@@ -55,13 +58,13 @@ const MobileNav = () => {
       >
         <div
           onClick={() => setIsOpen(false)}
-          className="cursor-pointer absolute top-8 right-8"
+          className="cursor-pointer text-white absolute top-8 right-8"
         >
           <ImCross className="w-6 h-6" />
         </div>
         {navigation.map((item, idx) => {
           return (
-            <li key={idx} className="mb-8">
+            <li key={idx} className="mb-8 z-50 text-white">
               <Link
                 onClick={() => setIsOpen(false)}
                 to={item.href}

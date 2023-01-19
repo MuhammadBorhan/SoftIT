@@ -14,9 +14,9 @@ const Main = () => {
   return (
     <>
       <header
-        className={`${
-          bg ? "bg-indigo-700 text-white h-20" : "h-20"
-        } fixed top-0 w-full z-10 transition-all duration-300`}
+        className={` fixed text-black md:text-white top-0 w-full z-10 transition-all duration-300 ${
+          bg ? "bg-blue-500 h-20 " : "h-16 text-white"
+        }`}
       >
         <div className="px-6 md:px-12 h-full flex items-center justify-between">
           {/* logo */}
@@ -31,7 +31,7 @@ const Main = () => {
           </div>
 
           {/* navbar for mobile*/}
-          <div className="lg:hidden">
+          <div className="lg:hidden z-50">
             <MobileNav />
           </div>
         </div>
