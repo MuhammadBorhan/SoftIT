@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
+import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
 
 const Main = () => {
@@ -15,9 +16,9 @@ const Main = () => {
       <header
         className={`${
           bg ? "bg-indigo-700 h-20" : "h-20"
-        } flex items-center fixed top-0 w-full text-white bg-black z-10 transition-all duration-300`}
+        } fixed top-0 w-full text-white bg-black z-10 transition-all duration-300`}
       >
-        <div className="container mx-auto h-full flex items-center justify-between">
+        <div className="px-6 md:px-12 h-full flex items-center justify-between">
           {/* logo */}
           <Link to="/" className="text-4xl font-bold">
             <span>Soft</span>
@@ -30,9 +31,9 @@ const Main = () => {
           </div>
 
           {/* navbar for mobile*/}
-          {/* <div className="lg:hidden">
-            <NavMobile />
-          </div> */}
+          <div className="lg:hidden">
+            <MobileNav />
+          </div>
         </div>
       </header>
 
