@@ -15,13 +15,13 @@ export default [
     description:
       "Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).",
     details: "https://glowing-semifreddo-77c56f.netlify.app/",
-    urls: "https://mdbootstrap.com/img/Photos/Slides/img%20(133).jpg",
+    urls: "https://www.rexoit.com/assets/uploads/media-uploader/large-web-development1629220921.jpg",
   },
   {
     title: "App Development",
     description:
       "Discover the latest app development tools, platform updates, training, and documentation for developers across every Android device.",
     details: "https://glowing-semifreddo-77c56f.netlify.app/",
-    urls: "https://mdbootstrap.com/img/Photos/Slides/img%20(102).jpg",
+    urls: "https://d1ivubrj2a21dq.cloudfront.net/wp-content/uploads/2020/12/21091510/Top-5-Custom-Mobile-App-Development-Companies-for-Your-Next-Project-1.jpg",
   },
 ];
