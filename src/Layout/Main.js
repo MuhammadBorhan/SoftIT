@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
+import FooterBottom from "./FooterBottom";
+import FooterTop from "./FooterTop";
 import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
 
@@ -42,6 +44,10 @@ const Main = () => {
 
       <div>
         <Outlet />
+      </div>
+      <div>
+        <FooterTop />
+        <FooterBottom />
       </div>
     </>
   );
