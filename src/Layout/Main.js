@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
 import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
 
 const Main = () => {
   const [bg, setBg] = useState(false);
+  const { pathname } = useLocation();
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -16,9 +17,11 @@ const Main = () => {
       <header
         className={` fixed text-black md:text-white top-0 w-full z-10 transition-all duration-300 ${
           bg ? "bg-blue-500 h-20 " : "h-16 text-white"
-        }`}
+        } `}
       >
-        <div className="px-6 md:px-12 h-full flex items-center justify-between">
+        <div
+          className={`px-6 md:px-12 h-full flex items-center justify-between `}
+        >
           {/* logo */}
           <Link to="/" className="text-4xl font-bold">
             <span>Soft</span>
