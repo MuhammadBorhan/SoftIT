@@ -1,0 +1,5 @@
+.horizontal {
+  border-bottom: 4px dotted black;
+  max-width: fit-content;
+  margin: auto;
+}

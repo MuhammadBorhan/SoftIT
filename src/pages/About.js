@@ -1,9 +1,16 @@
 import React from "react";
+import Banner from "../components/banner/Banner";
 import { ChangeTitle } from "../utils/ChangeTitle";
+import Abouts from "../components/About/Abouts";
 
 const About = () => {
   ChangeTitle("About");
-  return <div className="mt-20 h-[800px]">This is about</div>;
+  return (
+    <div className="">
+      <Banner />
+      <Abouts />
+    </div>
+  );
 };
 
 export default About;
