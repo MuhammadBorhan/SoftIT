@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import NotFound from "../components/NotFound/NotFound";
 import Main from "../Layout/Main";
 import About from "../pages/About";
 import Home from "../pages/Home";
@@ -15,6 +16,10 @@ const routes = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
       },
     ],
   },

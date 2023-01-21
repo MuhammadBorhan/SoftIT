@@ -9,7 +9,7 @@ const Navbar = () => {
         {navigation.map((item, index) => {
           return (
             <li
-              className="font-bold hover:text-blue-500 text-white cursor-pointer"
+              className="font-bold hover:text-blue-500 text-orange-500 cursor-pointer"
               key={index}
             >
               <Link to={item.href} className="transition-all duration-300">

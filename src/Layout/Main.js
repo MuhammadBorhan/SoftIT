@@ -11,14 +11,14 @@ const Main = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      return window.scrollY > 30 ? setBg(true) : setBg(false);
+      return window.scrollY > 50 ? setBg(true) : setBg(false);
     });
   });
   return (
     <>
       <header
-        className={` fixed text-black md:text-white top-0 w-full z-10 transition-all duration-300 ${
-          bg ? "bg-blue-900 h-20 " : "h-16 text-white"
+        className={` fixed text-white md:text-white top-0 w-full z-10 transition-all duration-300 ${
+          bg ? "bg-white h-20 border-b-2 " : "h-16 text-white"
         } `}
       >
         <div
@@ -26,7 +26,7 @@ const Main = () => {
         >
           {/* logo */}
           <Link to="/" className="text-4xl font-bold">
-            <span>Soft</span>
+            <span className="text-cyan-500">Soft</span>
             <span className="text-yellow-400">IT</span>
           </Link>
 

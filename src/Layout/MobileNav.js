@@ -35,7 +35,7 @@ const MobileNav = () => {
     <nav className="z-50">
       <div
         onClick={() => setIsOpen(true)}
-        className="cursor-pointer text-white"
+        className="cursor-pointer text-orange-500"
       >
         <AiOutlineMenu className="w-6 h-6" />
       </div>
