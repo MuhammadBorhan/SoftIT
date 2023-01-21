@@ -29,7 +29,7 @@ const Contact = () => {
         </div>
         <div className="flex flex-col justify-center lg:gap-x-8 lg:flex-row bg-gray-600 opacity-80 p-8">
           <form className="space-y-4 w-full max-w-[780px]">
-            <div className="flex gap-8">
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 ">
               <input
                 className="bg-gray-500 text-white h-[60px] outline-none pl-2 w-full text-[15px] rounded-sm focus: outline focus:outline-1 focus:outline-accent"
                 type="text"

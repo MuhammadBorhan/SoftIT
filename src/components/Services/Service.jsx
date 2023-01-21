@@ -10,7 +10,7 @@ const Service = ({ title, img, desc, icon }) => {
     //   </div>
     // </div>
 
-    <div className="card w-96 ">
+    <div className="card max-w-xl ">
       <span className="">{icon}</span>
       <div className="card-body items-center text-center text-black">
         <h2 className="card-title mb-6">{title}</h2>
