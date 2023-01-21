@@ -27,7 +27,7 @@ const Main = () => {
           {/* logo */}
           <Link to="/" className="text-4xl font-bold">
             <span className="text-cyan-500">Soft</span>
-            <span className="text-yellow-400">IT</span>
+            <span className="text-orange-500">IT</span>
           </Link>
 
           {/* navbar for desktop*/}

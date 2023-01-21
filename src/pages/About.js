@@ -7,7 +7,7 @@ const About = () => {
   ChangeTitle("About");
   return (
     <div className="">
-      <Banner />
+      <Banner image="url('https://artoftesting.com/wp-content/uploads/2020/01/software-engineering-featured.jpg')" />
       <Abouts />
     </div>
   );
