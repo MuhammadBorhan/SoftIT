@@ -21,7 +21,7 @@ const Skills = () => {
         {progresPercent.map((percent) => (
           <div key={percent} className="bg-gray-300 rounded-full my-2">
             <div
-              className="text-white font-bold flex justify-between items-center px-2 py-1 rounded-full"
+              className="text-white font-bold text-xs flex justify-between items-center px-2 py-1 rounded-full"
               style={{
                 width: percent.percent,
                 backgroundColor: percent.color,
@@ -38,7 +38,7 @@ const Skills = () => {
           onEnter={() => setCounterOn(true)}
           onExit={() => setCounterOn(false)}
         >
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center py-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 text-center items-center py-8">
             <div>
               <p className="text-5xl font-bold my-4">
                 {" "}
@@ -69,7 +69,7 @@ const Skills = () => {
                 Completed Projects
               </p>
             </div>
-            <div>
+            <div className="pb-12 lg:pb-0">
               <p className="text-5xl font-bold my-4">
                 {counterOn && (
                   <CountUp start={0} end={180} duration={3.5} delay={0} />

@@ -1,4 +1,5 @@
 import React from "react";
+import CarouselSlider from "../components/CarouselSlider/CarouselSlider";
 import Goal from "../components/Goal/Goal";
 import Services from "../components/Services/Services";
 import Skills from "../components/Skills/Skills";
@@ -17,6 +18,7 @@ const Home = () => {
       <WhySoftIT />
       <WorkedWith />
       <Skills />
+      <CarouselSlider />
     </div>
   );
 };

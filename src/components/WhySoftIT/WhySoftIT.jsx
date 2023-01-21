@@ -4,7 +4,7 @@ import { MdOutlinePriceChange } from "react-icons/md";
 
 const WhySoftIT = () => {
   return (
-    <div className="px-12 lg:px-20 my-12 bg-slate-100 py-6">
+    <div className="px-12 lg:px-32 my-12 bg-slate-100 py-6">
       <h1 className="text-center text-2xl lg:text-4xl my-8 font-bold">
         Transform your business puzzle into software solutions
       </h1>
@@ -26,7 +26,7 @@ const WhySoftIT = () => {
             </a>
           </button>
         </div>
-        <div>
+        <div className="ml-0 lg:ml-28">
           <ul>
             <li className="flex items-center gap-2 font-bold font-serif text-xl">
               {" "}
