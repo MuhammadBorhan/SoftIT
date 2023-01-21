@@ -4,6 +4,7 @@ import Main from "../Layout/Main";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
+import Price from "../pages/Price";
 
 const routes = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const routes = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/price",
+        element: <Price />,
       },
       {
         path: "/contact",

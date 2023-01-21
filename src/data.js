@@ -18,7 +18,7 @@ export const navigation = [
   },
   {
     name: "Price",
-    href: "portfolio",
+    href: "price",
   },
   {
     name: "Contact",
@@ -84,4 +84,97 @@ export const progresPercent = [
   { name: "React", color: "Purple", percent: "94%" },
   { name: "Nodejs", color: "Magenta", percent: "92%" },
   { name: "MongoDB", color: "Teal", percent: "90%" },
+];
+
+export const priceDetails = [
+  {
+    name: "Silver",
+    price: 20.25,
+    requirement: [
+      {
+        name: "check",
+        item: "HTML5 & CSS3",
+      },
+      {
+        name: "check",
+        item: "Tailwind",
+      },
+      {
+        name: "check",
+        item: "JavaScript",
+      },
+      {
+        name: "cross",
+        item: "React",
+      },
+      {
+        name: "cross",
+        item: "Redux",
+      },
+      {
+        name: "cross",
+        item: "Nodejs",
+      },
+    ],
+  },
+  {
+    name: "Gold",
+    price: 25.5,
+    requirement: [
+      {
+        name: "check",
+        item: "HTML5 & CSS3",
+      },
+      {
+        name: "check",
+        item: "Tailwind",
+      },
+      {
+        name: "check",
+        item: "JavaScript",
+      },
+      {
+        name: "check",
+        item: "React",
+      },
+      {
+        name: "cross",
+        item: "Redux",
+      },
+      {
+        name: "cross",
+        item: "Nodejs",
+      },
+    ],
+  },
+  {
+    name: "Platinum",
+    price: 30.9,
+    requirement: [
+      {
+        name: "check",
+        item: "HTML5 & CSS3",
+      },
+      {
+        name: "check",
+        item: "Tailwind",
+      },
+      {
+        name: "check",
+        item: "JavaScript",
+      },
+      {
+        name: "check",
+        item: "React",
+      },
+      {
+        name: "check",
+        item: "Redux",
+      },
+      {
+        name: "cross",
+        item: "Nodejs",
+      },
+    ],
+  },
 ];

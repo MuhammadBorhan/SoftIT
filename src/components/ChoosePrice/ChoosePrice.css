@@ -1,0 +1,8 @@
+.main_box:hover .top_box {
+  background-color: indigo;
+  transition: 0.4s;
+}
+.main_box:hover .buttons {
+  background-color: indigo;
+  transition: 0.4s;
+}
