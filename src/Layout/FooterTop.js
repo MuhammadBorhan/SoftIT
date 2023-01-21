@@ -57,10 +57,10 @@ const FooterTop = () => {
             className="border p-2 pr-20 w-full text-black rounded-full"
           />
           <button>
-            <MdSendAndArchive className="w-20 h-10 relative left-[374px] lg:left-[292px] bottom-[41px]  text-white bg-orange-500 rounded-full px-2" />
+            <MdSendAndArchive className="w-20 h-10 relative hidden lg:block lg:left-[292px] lg:bottom-[41px]  text-white bg-orange-500 rounded-full px-2" />
           </button>
         </div>
-        <p className="text-xl font-bold mt-[-20px]">Follow Us</p>
+        <p className="text-xl font-bold mt-2">Follow Us</p>
         <div className="flex gap-6 mt-2">
           <a href="facebook.com">
             <FaFacebook className="" />
