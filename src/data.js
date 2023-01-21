@@ -76,3 +76,12 @@ export const images = [
     link: "https://www.logodee.com/wp-content/uploads/2021/12/7.jpg",
   },
 ];
+
+export const progresPercent = [
+  { name: "HTML5", color: "green", percent: "100%" },
+  { name: "CSS3", color: "blue", percent: "98%" },
+  { name: "JavaScript", color: "Brown", percent: "96%" },
+  { name: "React", color: "Purple", percent: "94%" },
+  { name: "Nodejs", color: "Magenta", percent: "92%" },
+  { name: "MongoDB", color: "Teal", percent: "90%" },
+];

@@ -54,10 +54,10 @@ const FooterTop = () => {
           <input
             type="text"
             placeholder="Send Your Email"
-            className="border p-2 w-full z-[1] text-black rounded-full"
+            className="border p-2 pr-20 w-full text-black rounded-full"
           />
           <button>
-            <MdSendAndArchive className="w-20 h-10 relative left-[321px] lg:left-[292px] bottom-[41px] z-[2] text-white bg-orange-500 rounded-full px-2" />
+            <MdSendAndArchive className="w-20 h-10 relative left-[321px] lg:left-[292px] bottom-[41px]  text-white bg-orange-500 rounded-full px-2" />
           </button>
         </div>
         <p className="text-xl font-bold mt-[-20px]">Follow Us</p>

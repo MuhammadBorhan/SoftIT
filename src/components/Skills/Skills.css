@@ -1,0 +1,14 @@
+.outer-progress {
+  height: 20px;
+  background: rgba(128, 128, 128, 0.719);
+}
+.inner-progress {
+  height: 100%;
+  background-color: var(--color);
+  width: var(--width);
+  text-align: center;
+  color: white;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
