@@ -12,7 +12,7 @@ const Portfolio = () => {
           text="Instead of just telling interviewers about your technical skillsets and expertise, a portfolio allows you to show them. Creating a portfolio site can seem daunting and time consuming."
         />
       </div>
-      <section id="portfolio" className="py-12 bg-black min-h-[1400px]">
+      <section className="py-12 px-6 lg:px-0 bg-black">
         <div
           className="container mx-auto"
           data-aos="fade-up"

@@ -190,6 +190,9 @@ export const projectsNav = [
   {
     name: "web development",
   },
+  {
+    name: "app development",
+  },
 ];
 
 export const projectsData = [

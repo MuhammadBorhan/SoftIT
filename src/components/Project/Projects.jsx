@@ -50,11 +50,19 @@ const Projects = () => {
       </nav>
 
       {/* projects */}
-      <section className="grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8">
-        {projects.map((item) => {
-          return <Project item={item} key={item.id} />;
-        })}
-      </section>
+      <div>
+        {projects.length === 0 ? (
+          <div className="flex justify-center items-center text-4xl font-bold text-white">
+            Comming Soon
+          </div>
+        ) : (
+          <section className="grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8">
+            {projects.map((item) => {
+              return <Project item={item} key={item.id} />;
+            })}
+          </section>
+        )}
+      </div>
     </div>
   );
 };
