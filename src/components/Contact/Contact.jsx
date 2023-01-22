@@ -4,16 +4,11 @@ const Contact = () => {
   return (
     <div className="px-12 mt-16">
       <div className="flex flex-col items-center text-center mb-8">
-        <h2 className="text-3xl font-bold">Contact With Us</h2>
-        <p className="">
-          If you have any information please E-mail us.
-          <br />
-          or
-          <br />
-          Phone: +8801402723759
-        </p>
+        <h2 className="text-3xl font-bold">
+          You can visit our office using this location
+        </h2>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-1 items-center gap-10">
         <div>
           <iframe
             // width="700"
@@ -27,7 +22,7 @@ const Contact = () => {
             marginwidth="0"
           ></iframe>
         </div>
-        <div className="flex flex-col justify-center lg:gap-x-8 lg:flex-row bg-gray-600 opacity-80 p-8">
+        {/* <div className="flex flex-col justify-center lg:gap-x-8 lg:flex-row bg-gray-600 opacity-80 p-8">
           <form className="space-y-4 w-full max-w-[780px]">
             <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 ">
               <input
@@ -57,7 +52,7 @@ const Contact = () => {
               Send message
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </div>
   );

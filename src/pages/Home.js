@@ -2,6 +2,7 @@ import React from "react";
 import CarouselSlider from "../components/CarouselSlider/CarouselSlider";
 import Contact from "../components/Contact/Contact";
 import Goal from "../components/Goal/Goal";
+import MeetWithTeam from "../components/MeetWithTeam/MeetWithTeam";
 import Services from "../components/Services/Services";
 import Skills from "../components/Skills/Skills";
 import Slider from "../components/slider/Slider";
@@ -20,6 +21,7 @@ const Home = () => {
       <WorkedWith />
       <Skills />
       <CarouselSlider />
+      <MeetWithTeam />
       <Contact />
     </div>
   );

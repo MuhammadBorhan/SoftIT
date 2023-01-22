@@ -1,14 +1,16 @@
 import React from "react";
 import Banner from "../components/banner/Banner";
 import Projects from "../components/Project/Projects";
+import { ChangeTitle } from "../utils/ChangeTitle";
 
 const Portfolio = () => {
+  ChangeTitle("Portfolio");
   return (
     <div>
       <div>
         <Banner
           image="url('https://cdn.themexpert.com/images/easyblog_articles/2857/Banner.jpg')"
-          title="Most software engineers need an online portfolio to establish credibility"
+          title="Most software Company's need an online portfolio to establish credibility"
           text="Instead of just telling interviewers about your technical skillsets and expertise, a portfolio allows you to show them. Creating a portfolio site can seem daunting and time consuming."
         />
       </div>

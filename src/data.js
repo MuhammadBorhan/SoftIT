@@ -288,3 +288,102 @@ export const projectsData = [
     category: "Web design",
   },
 ];
+
+export const teamMates = [
+  {
+    image:
+      "https://glowing-semifreddo-77c56f.netlify.app/static/media/borhan.d87b28879c1a50ffbd3f.png",
+    name: "Borhan",
+    position: "Web Developer",
+    media: [
+      {
+        name: "facebook",
+        link: "https://web.facebook.com/mdborhan.uddin.121",
+      },
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/md-borhan-uddin-3a37a61a4/",
+      },
+      {
+        name: "instagram",
+        link: "https://www.instagram.com/",
+      },
+      {
+        name: "twitter",
+        link: "https://twitter.com/",
+      },
+    ],
+  },
+  {
+    image:
+      "https://glowing-semifreddo-77c56f.netlify.app/static/media/borhan.d87b28879c1a50ffbd3f.png",
+    name: "Borhan",
+    position: "Web Developer",
+    media: [
+      {
+        name: "facebook",
+        link: "https://web.facebook.com/mdborhan.uddin.121",
+      },
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/md-borhan-uddin-3a37a61a4/",
+      },
+      {
+        name: "instagram",
+        link: "https://www.instagram.com/",
+      },
+      {
+        name: "twitter",
+        link: "https://twitter.com/",
+      },
+    ],
+  },
+  {
+    image:
+      "https://glowing-semifreddo-77c56f.netlify.app/static/media/borhan.d87b28879c1a50ffbd3f.png",
+    name: "Borhan",
+    position: "Web Developer",
+    media: [
+      {
+        name: "facebook",
+        link: "https://web.facebook.com/mdborhan.uddin.121",
+      },
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/md-borhan-uddin-3a37a61a4/",
+      },
+      {
+        name: "instagram",
+        link: "https://www.instagram.com/",
+      },
+      {
+        name: "twitter",
+        link: "https://twitter.com/",
+      },
+    ],
+  },
+  {
+    image:
+      "https://glowing-semifreddo-77c56f.netlify.app/static/media/borhan.d87b28879c1a50ffbd3f.png",
+    name: "Borhan",
+    position: "Web Developer",
+    media: [
+      {
+        name: "facebook",
+        link: "https://web.facebook.com/mdborhan.uddin.121",
+      },
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/md-borhan-uddin-3a37a61a4/",
+      },
+      {
+        name: "instagram",
+        link: "https://www.instagram.com/",
+      },
+      {
+        name: "twitter",
+        link: "https://twitter.com/",
+      },
+    ],
+  },
+];

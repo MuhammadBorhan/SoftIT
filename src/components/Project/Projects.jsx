@@ -30,7 +30,7 @@ const Projects = () => {
     <div>
       {/* projects nav */}
       <nav className="mb-12 max-w-xl mx-auto">
-        <ul className="flex flex-col md:flex-row justify-evenly items-center text-white">
+        <ul className="flex flex-col md:flex-row bg-gray-800 justify-evenly items-center text-white">
           {projectsNav.map((item, index) => {
             return (
               <li
@@ -38,7 +38,7 @@ const Projects = () => {
                   handleClick(e, index);
                 }}
                 className={`${
-                  active === index ? "text-yellow-400" : ""
+                  active === index ? "text-yellow-400 font-bold" : ""
                 } cursor-pointer capitalize m-4`}
                 key={index}
               >
