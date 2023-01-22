@@ -8,7 +8,11 @@ const Price = () => {
   return (
     <div>
       <div>
-        <Banner image="url('http://sombrainc.com/wp-content/uploads/2018/12/1.png')" />
+        <Banner
+          image="url('http://sombrainc.com/wp-content/uploads/2018/12/1.png')"
+          title="Software Products to Maximize Business Value"
+          text="Instead of just telling interviewers about your technical skillsets and expertise, a portfolio allows you to show them. Creating a portfolio site can seem daunting and time consuming."
+        />
       </div>
       <div className="px-16 py-12">
         <div className="text-center ">

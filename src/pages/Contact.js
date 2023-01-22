@@ -7,7 +7,11 @@ const Contact = () => {
   return (
     <div>
       <div>
-        <Banner image="url('https://www.scnsoft.com/blog-pictures/software-development-outsourcing/sw-development-teams.png')" />
+        <Banner
+          image="url('https://www.scnsoft.com/blog-pictures/software-development-outsourcing/sw-development-teams.png')"
+          title="Software Products to Maximize Business Value"
+          text="Instead of just telling interviewers about your technical skillsets and expertise, a portfolio allows you to show them. Creating a portfolio site can seem daunting and time consuming."
+        />
       </div>
       <div className="px-12 mt-16">
         <div className="flex flex-col items-center text-center mb-8">
