@@ -12,7 +12,7 @@ const Intro = () => {
             className="text-3xl font-bold mb-4 pb-3 max-w-fit lg:mx-0 mx-auto"
             style={{ borderBottom: "2px dashed" }}
           >
-            A Little Intro
+            A Little Intro About Organization
           </h1>
           <p className="text-justify text-xl">
             OrangeToolz is a digital agency (for apps, web and SaaS) that
@@ -50,7 +50,7 @@ const Intro = () => {
               </li>
             </ul>
           </div>
-          <button className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-4 py-2 block mx-auto lg:mx-0 rounded-full text-white font-bold text-xl">
+          <button className="bg-gradient-to-r from-orange-400 via-orange-600 to-orange-800 px-4 py-2 block mx-auto lg:mx-0 rounded-full text-white font-bold text-xl">
             Hire Us For Next Project
           </button>
         </div>

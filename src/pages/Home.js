@@ -9,6 +9,7 @@ import Skills from "../components/Skills/Skills";
 import Slider from "../components/slider/Slider";
 import WhySoftIT from "../components/WhySoftIT/WhySoftIT";
 import WorkedWith from "../components/WorkedWith/WorkedWith";
+import WorkingStep from "../components/WorkingStep/WorkingStep";
 import { ChangeTitle } from "../utils/ChangeTitle";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Intro />
       <Services />
       <WhySoftIT />
+      <WorkingStep />
       <WorkedWith />
       <Skills />
       <MeetWithTeam />

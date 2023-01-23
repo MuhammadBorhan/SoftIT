@@ -15,7 +15,7 @@ const MeetWithTeam = () => {
           have computer skills without knowing certain software programs.
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-4 px-6 lg:px-12 gap-y-10">
+      <div className="grid grid-cols-1 lg:grid-cols-4 lg:px-12 gap-y-10">
         {teamMates.map((team, index) => (
           <div key={index} className="card bg-base-100 shadow-xl">
             <figure className="imgLayer">
