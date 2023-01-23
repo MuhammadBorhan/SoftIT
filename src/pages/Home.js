@@ -20,8 +20,8 @@ const Home = () => {
       <WhySoftIT />
       <WorkedWith />
       <Skills />
-      <CarouselSlider />
       <MeetWithTeam />
+      <CarouselSlider />
       <Contact />
     </div>
   );

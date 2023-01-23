@@ -292,7 +292,7 @@ export const projectsData = [
 export const teamMates = [
   {
     image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/borhan.d87b28879c1a50ffbd3f.png",
+      "https://scontent.fdac4-2.fna.fbcdn.net/v/t39.30808-6/325285401_721873519373391_8268420761804291021_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE7mmuK7LRF7DnZGROAeOWqMPhSDy8rnlYw-FIPLyueVjeV2_UEHnxp0WzRPaLKR5ef2yuneWFZHslO6ybNCbvv&_nc_ohc=5uwDGABsJkwAX9KT5Rr&tn=KwB6qWNsXbu_ua48&_nc_zt=23&_nc_ht=scontent.fdac4-2.fna&oh=00_AfCMWLZh7vjgxMj4lV1SZrg-wdO9asVbUjXVmZwAZFP2PQ&oe=63D3CDB9",
     name: "Borhan",
     position: "Web Developer",
     media: [

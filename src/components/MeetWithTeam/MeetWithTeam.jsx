@@ -1,11 +1,12 @@
 import { itMatchesOne } from "daisyui/src/lib/postcss-prefixer/utils";
 import React from "react";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { teamMates } from "../../data";
 import "./MeetWithTeam.css";
 
 const MeetWithTeam = () => {
   return (
-    <div className="px-10 py-12">
+    <div className="px-10 py-12 mt-8">
       <div className="text-center ">
         <h1 className="text-4xl capitalize pb-4 horizontal">Meet Our Team</h1>
         <p className="my-6 text-xl lg:w-3/5 mx-auto font-sans">
@@ -14,18 +15,38 @@ const MeetWithTeam = () => {
           have computer skills without knowing certain software programs.
         </p>
       </div>
-      <div className="slider grid grid-cols-1 lg:grid-cols-4">
+      <div className="grid grid-cols-1 lg:grid-cols-4 px-6 lg:px-12 gap-y-10">
         {teamMates.map((team, index) => (
-          <div className="card bg-neutral">
-            <div className="card-top">
-              <img
-                className="w-40 h-40 object-cover"
-                src={team.image}
-                alt={team.name}
-              />
-              <h1 className="text-2xl bg-neutral text-white font-bold text-center py-1 uppercase">
-                {team.name}
-              </h1>
+          <div key={index} className="card bg-base-100 shadow-xl">
+            <figure className="imgLayer">
+              <img src={team.image} alt="Shoes" className="w-full h-52" />
+              <div className="layer"></div>
+            </figure>
+            <p className="figcaption">{team.position}</p>
+            <div className="card-body bg-gray-200 text-black hover:bg-green-500 hover:text-white transition-all items-center text-center">
+              <h2 className="card-title">{team.name}</h2>
+              <p>{team.position}</p>
+              <div className="grid grid-cols-4 justify-center items-center gap-2">
+                {team.media.map((data, index) => (
+                  <div>
+                    <a target="_blank" href={data.link}>
+                      {data.name === "facebook" && <FaFacebook />}
+                    </a>
+                    <a target="_blank" href={data.link}>
+                      {data.name === "linkedin" && <FaLinkedin />}
+                    </a>
+                    <a target="_blank" href={data.link}>
+                      {data.name === "instagram" && <FaInstagram />}
+                    </a>
+                    <a target="_blank" href={data.link}>
+                      {data.name === "twitter" && <FaTwitter />}
+                    </a>
+                  </div>
+                ))}
+              </div>
+              {/* <a href={""}>
+                <FaFacebook />
+              </a> */}
             </div>
           </div>
         ))}
