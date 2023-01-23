@@ -44,7 +44,7 @@ const CarouselSlider = () => {
     ],
   };
   return (
-    <div className="slider ">
+    <div className="slider">
       <Slider {...settings}>
         {carouselProducts.map((item) => (
           <div className="card bg-neutral">

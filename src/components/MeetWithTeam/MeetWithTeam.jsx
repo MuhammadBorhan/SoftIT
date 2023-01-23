@@ -6,7 +6,7 @@ import "./MeetWithTeam.css";
 
 const MeetWithTeam = () => {
   return (
-    <div className="px-10 py-12 mt-8">
+    <div className="px-10 py-12 bg-slate-50">
       <div className="text-center ">
         <h1 className="text-4xl capitalize pb-4 horizontal">Meet Our Team</h1>
         <p className="my-6 text-xl lg:w-3/5 mx-auto font-sans">

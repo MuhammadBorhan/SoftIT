@@ -6,7 +6,7 @@ import "./ChoosePrice.css";
 
 const ChoosePrice = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 px-6 lg:px-20 mt-10">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 px-0 lg:px-20 mt-10">
       {priceDetails.map((details, index) => {
         const { requirement, name, price } = details;
         return (

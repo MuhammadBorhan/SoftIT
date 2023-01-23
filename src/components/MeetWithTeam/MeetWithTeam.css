@@ -19,10 +19,7 @@
 
 .figcaption {
   position: absolute;
-  left: 35%;
-  top: 30%;
+  left: 15%;
+  top: 10%;
   display: none;
-}
-.imgLayer:hover .figcaption {
-  display: block;
 }

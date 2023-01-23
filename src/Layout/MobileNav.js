@@ -3,10 +3,16 @@ import { motion } from "framer-motion";
 import { AiOutlineMenu } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
 import { navigation } from "../data";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [active, setActive] = useState(0);
+
+  const handleClick = (e, index) => {
+    setIsOpen(false);
+    setActive(index);
+  };
 
   const circleVariants = {
     hidden: {
@@ -62,11 +68,21 @@ const MobileNav = () => {
         >
           <ImCross className="w-6 h-6" />
         </div>
-        {navigation.map((item, idx) => {
+        {navigation.map((item, index) => {
           return (
-            <li key={idx} className="mb-8 z-50 text-white">
+            <li
+              key={index}
+              className={`mb-8 z-50  ${
+                active === index
+                  ? "bg-white text-blue-500 px-2 py-1 rounded-full font-bold"
+                  : "text-white"
+              }`}
+            >
               <Link
-                onClick={() => setIsOpen(false)}
+                // onClick={() => setIsOpen(false)}
+                onClick={(e) => {
+                  handleClick(e, index);
+                }}
                 to={item.href}
                 className="text-xl cursor-pointer capitalize"
               >
