@@ -1,4 +1,8 @@
 import React from "react";
+import { BsTelephone } from "react-icons/bs";
+import { FaLocationArrow } from "react-icons/fa";
+import { ImLocation } from "react-icons/im";
+import { MdEmail, MdLocationCity } from "react-icons/md";
 import Banner from "../components/banner/Banner";
 import { ChangeTitle } from "../utils/ChangeTitle";
 
@@ -13,18 +17,37 @@ const Contact = () => {
           text="Instead of just telling interviewers about your technical skillsets and expertise, a portfolio allows you to show them. Creating a portfolio site can seem daunting and time consuming."
         />
       </div>
-      <div className="px-12 mt-16">
+      <div className="px-12 py-10 bg-gray-100">
         <div className="flex flex-col items-center text-center mb-8">
           <h2 className="text-3xl font-bold">Contact With Us</h2>
           <p className="">
-            If you have any information please E-mail us.
-            <br />
-            or
-            <br />
-            Phone: +8801402723759
+            If you have any information please E-mail or Phone us
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
+        <div className="grid grid-cols-1  lg:grid-cols-3 justify-center text-center items-center gap-10 my-8">
+          <div className="shadow-lg bg-white p-6 flex flex-col gap-y-2 rounded hover:bg-green-500 hover:text-white transition-all">
+            <span>
+              <ImLocation className=" block mx-auto text-green-700 text-4xl font-bold" />
+            </span>
+            <p className="text-xl font-bold">Address</p>
+            <p>Badda, Dahaka-1212, Bangladesh</p>
+          </div>
+          <div className="shadow-md bg-white p-6  flex flex-col gap-y-2 rounded hover:bg-green-500 hover:text-white transition-all">
+            <span>
+              <BsTelephone className=" block mx-auto text-green-700 text-4xl font-bold" />
+            </span>
+            <p className="text-xl font-bold">Phone Number</p>
+            <p>+880-1620658621</p>
+          </div>
+          <div className="shadow-md bg-white p-6  flex flex-col gap-y-2 hover:bg-green-500 hover:text-white transition-all">
+            <span>
+              <MdEmail className=" block mx-auto text-green-700 text-4xl font-bold" />
+            </span>
+            <p className="text-xl font-bold">Email</p>
+            <p>borhan@gmail.com</p>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 rounded">
           <div>
             <iframe
               // width="700"
@@ -32,10 +55,6 @@ const Contact = () => {
               className="w-full h-[300px] lg:h-[500px]"
               id="gmap_canvas"
               src="https://maps.google.com/maps?q=Adarshanogor,badda,dhaka,1212&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
             ></iframe>
           </div>
           <div className="flex flex-col justify-center lg:gap-x-8 lg:flex-row bg-gray-600 opacity-80 p-8">

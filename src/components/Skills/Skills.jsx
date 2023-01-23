@@ -18,8 +18,8 @@ const Skills = () => {
         </p>
       </div>
       <div className="px-0 lg:px-20">
-        {progresPercent.map((percent) => (
-          <div key={percent} className="bg-gray-300 rounded-full my-2">
+        {progresPercent.map((percent, index) => (
+          <div key={index} className="bg-gray-300 rounded-full my-2">
             <div
               className="text-white font-bold text-xs flex justify-between items-center px-2 py-1 rounded-full"
               style={{

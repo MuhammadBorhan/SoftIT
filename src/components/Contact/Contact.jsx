@@ -16,10 +16,6 @@ const Contact = () => {
             className="w-full h-[300px] lg:h-[500px]"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=Adarshanogor,badda,dhaka,1212&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
           ></iframe>
         </div>
         {/* <div className="flex flex-col justify-center lg:gap-x-8 lg:flex-row bg-gray-600 opacity-80 p-8">

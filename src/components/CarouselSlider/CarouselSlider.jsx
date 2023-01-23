@@ -46,8 +46,8 @@ const CarouselSlider = () => {
   return (
     <div className="slider">
       <Slider {...settings}>
-        {carouselProducts.map((item) => (
-          <div className="card bg-neutral">
+        {carouselProducts.map((item, index) => (
+          <div key={index} className="card bg-neutral">
             <div className="card-top">
               <img className="w-40 h-40" src={item.link} alt={item.title} />
               <h1 className="text-2xl bg-neutral text-white font-bold text-center py-1 uppercase">

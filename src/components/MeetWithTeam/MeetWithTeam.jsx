@@ -28,8 +28,8 @@ const MeetWithTeam = () => {
               <p>{team.position}</p>
               <div className="grid grid-cols-4 justify-center items-center gap-2">
                 {team.media.map((data, index) => (
-                  <div>
-                    <a target="_blank" href={data.link}>
+                  <div key={index} className="hover:[transform:scale(1.7)]">
+                    <a target="_blank" href={data.link} className="">
                       {data.name === "facebook" && <FaFacebook />}
                     </a>
                     <a target="_blank" href={data.link}>
