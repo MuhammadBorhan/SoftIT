@@ -14,10 +14,16 @@ const SliderContent = ({ activeIndex, sliderImage }) => {
           <h3 className="slide-text text-xl md:text-2xl ">
             {slide.description}
           </h3>
-          <button className="btn btn-primary button hidden lg:block mt-24 -ml-8 lg:-ml-0 lg:mt-0">
-            <a target="_blank" href={slide.details}>
+          <button
+            style={{ zIndex: "1px" }}
+            className=" button rounded hidden lg:block mt-24 -ml-8 lg:-ml-0 lg:mt-0"
+          >
+            <Link
+              to={slide.details}
+              className="slide_btn_a text-orange-500 font-bold"
+            >
               GET STARTED
-            </a>
+            </Link>
           </button>
         </div>
       ))}

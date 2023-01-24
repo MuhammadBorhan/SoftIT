@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineSolution, AiTwotoneFileAdd } from "react-icons/ai";
 import { SiExpensify } from "react-icons/si";
 import { TfiSupport } from "react-icons/tfi";
+import { Link } from "react-router-dom";
 
 const Intro = () => {
   return (
@@ -51,7 +52,7 @@ const Intro = () => {
             </ul>
           </div>
           <button className="bg-gradient-to-r from-orange-400 via-orange-600 to-orange-800 px-4 py-2 block mx-auto lg:mx-0 rounded-full text-white font-bold text-xl">
-            Hire Us For Next Project
+            <Link to="/contact">Hire Us For Next Project</Link>
           </button>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillChrome, AiFillCodeSandboxCircle } from "react-icons/ai";
 import { MdOutlinePriceChange } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const WhySoftIT = () => {
   return (
@@ -21,9 +22,9 @@ const WhySoftIT = () => {
             goals within shorter terms and optimal budget.
           </p>
           <button className="px-6 py-3 rounded bg-sky-700 mt-4">
-            <a target="_blank" href="" className="text-white font-bold">
+            <Link to="/about" className="text-white font-bold">
               Why SoftIT
-            </a>
+            </Link>
           </button>
         </div>
         <div className="ml-0 lg:ml-28">
