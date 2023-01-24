@@ -81,10 +81,12 @@ const Navbar = () => {
                   <Link to="/service/uiux">UI/UX Designing</Link>
                 </li>
                 <li className="text-orange-500 font-bold">
-                  <Link to="">Web Design & Development</Link>
+                  <Link to="/service/web-development">
+                    Web Design & Development
+                  </Link>
                 </li>
                 <li className="text-orange-500 font-bold">
-                  <Link to="">App Development</Link>
+                  <Link to="/service/app-development">App Development</Link>
                 </li>
               </ul>
             </li>

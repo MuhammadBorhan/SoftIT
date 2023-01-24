@@ -1,19 +1,19 @@
 import React from "react";
-import "./UiUxDesign.css";
+import "./AppDevelop.css";
 
-const UiUxDesign = ({ title, text }) => {
+const AppDevelop = ({ title, text }) => {
   return (
     <div>
       <div>
-        <div className="bg_uiux">
-          <div className="flex justify-center px-6 lg:px-12 mt-20 flex-col gap-y-4 items-center h-screen">
-            <h1 className="zIndex text-white text-2xl lg:text-5xl text-center">
+        <div className="bg_app">
+          <div className="flex justify-center px-6 lg:px-12 flex-col gap-y-4 items-center h-screen">
+            <h1 className="zIndex text-white mb-32 text-2xl lg:text-5xl text-center">
               {title}
             </h1>
-            <p className="zIndex text-center lg:text-2xl text-white">{text}</p>
+            <p className="zIndex text-center  lg:text-2xl text-white">{text}</p>
           </div>
         </div>
-        <div className="overlay_uiux"></div>
+        <div className="overlay_app"></div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 p-12 justify-center items-center gap-10 bg-slate-200">
@@ -104,4 +104,4 @@ const UiUxDesign = ({ title, text }) => {
   );
 };
 
-export default UiUxDesign;
+export default AppDevelop;

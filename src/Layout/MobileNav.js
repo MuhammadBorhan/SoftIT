@@ -144,13 +144,15 @@ const MobileNav = () => {
                     className="text-black font-bold"
                     onClick={() => setIsOpen(false)}
                   >
-                    <Link to="">Web Design & Development</Link>
+                    <Link to="/service/web-development">
+                      Web Design & Development
+                    </Link>
                   </li>
                   <li
                     className="text-black font-bold"
                     onClick={() => setIsOpen(false)}
                   >
-                    <Link to="">App Development</Link>
+                    <Link to="/service/app-development">App Development</Link>
                   </li>
                 </ul>
               </li>
