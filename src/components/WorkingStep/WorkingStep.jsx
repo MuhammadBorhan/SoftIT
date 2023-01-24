@@ -14,7 +14,12 @@ const WorkingStep = () => {
           expect and timeline for the project.
         </p>
       </div>
-      <div className="flex justify-center pt-10 ">
+      <div
+        className="flex justify-center pt-10 "
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+      >
         <ul className="steps steps-vertical lg:steps-horizontal lg:w-full">
           <li data-content="?" className="step step-primary text-xl font-bold">
             Meeting

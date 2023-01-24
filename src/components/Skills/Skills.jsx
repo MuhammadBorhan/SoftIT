@@ -17,7 +17,12 @@ const Skills = () => {
           have computer skills without knowing certain software programs.
         </p>
       </div>
-      <div className="px-0 lg:px-20">
+      <div
+        className="px-0 lg:px-20"
+        data-aos="flip-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+      >
         {progresPercent.map((percent, index) => (
           <div key={index} className="bg-gray-300 rounded-full my-2">
             <div

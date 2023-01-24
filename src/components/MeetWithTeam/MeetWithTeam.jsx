@@ -17,7 +17,13 @@ const MeetWithTeam = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 lg:px-12 gap-y-10">
         {teamMates.map((team, index) => (
-          <div key={index} className="card bg-base-100 shadow-xl">
+          <div
+            key={index}
+            className="card bg-base-100 shadow-xl"
+            data-aos="flip-down"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <figure className="imgLayer">
               <img src={team.image} alt="Shoes" className="w-full h-52" />
               <div className="layer"></div>

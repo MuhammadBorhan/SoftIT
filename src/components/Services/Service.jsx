@@ -10,7 +10,12 @@ const Service = ({ title, img, desc, icon }) => {
     //   </div>
     // </div>
 
-    <div className="card max-w-xl ">
+    <div
+      className="card max-w-xl"
+      data-aos="zoom-in-down"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <span className="">{icon}</span>
       <div className="card-body items-center text-center text-black">
         <h2 className="card-title mb-6">{title}</h2>
