@@ -8,7 +8,7 @@ import Service from "./Service";
 
 const Services = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 px-10 my-16 gap-10 bg-gray-200 py-8">
+    <div className="grid grid-cols-1 md:grid-cols-3 px-10 lg:mt-16 gap-10 bg-gray-200 py-8">
       <Service
         title="Enterprise Application Development"
         desc="Premier and customized business applications and e-commerce solutions development services that safeguard organizational value, performance, and profitability."
