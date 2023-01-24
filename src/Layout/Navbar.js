@@ -78,7 +78,7 @@ const Navbar = () => {
               </Link>
               <ul className="p-2 bg-white">
                 <li className="text-orange-500 font-bold">
-                  <Link to="/uiux">UI/UX Designing</Link>
+                  <Link to="/service/uiux">UI/UX Designing</Link>
                 </li>
                 <li className="text-orange-500 font-bold">
                   <Link to="">Web Design & Development</Link>

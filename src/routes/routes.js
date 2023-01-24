@@ -6,6 +6,7 @@ import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import Portfolio from "../pages/Portfolio";
 import Price from "../pages/Price";
+import UiUx from "../pages/UiUx";
 
 const routes = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const routes = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/service/uiux",
+        element: <UiUx />,
       },
       {
         path: "*",
