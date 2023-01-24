@@ -16,7 +16,7 @@ const ChoosePrice = () => {
           >
             <div className="p-12 bg-blue-600 font-bold text-white text-center rounded-t-md top_box">
               <h1 className="text-2xl font-bold">{name}</h1>
-              <p className="text-5xl font-bold my-2">{price} $</p>
+              <p className="text-3xl lg:text-5xl font-bold my-2">{price} $</p>
               <p className="font-mono text-gray-200">Per Month</p>
             </div>
             <div className="p-12">
