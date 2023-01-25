@@ -5,7 +5,8 @@ import FooterTop from "./FooterTop";
 import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
 import logo from "../assets/logo.png";
-import logo1 from "../assets/logo1.png";
+// import comtech from "../assets/comtech.png";
+import comtechLogo from "../assets/comtech_logo.png";
 
 const Main = () => {
   const [bg, setBg] = useState(false);
@@ -31,9 +32,9 @@ const Main = () => {
             <span className="text-orange-500">IT</span> */}
             <img
               // src="https://i.ibb.co/8gvTfgk/1-1.jpg"
-              src={logo}
+              src={comtechLogo}
               alt="logo"
-              className={`w-40 lg:w-full ${bg ? "" : "opacity-80 rounded"}`}
+              className={`w-40 lg:w-full`}
             />
           </Link>
 
