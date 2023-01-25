@@ -14,7 +14,7 @@ const FooterBottom = () => {
       />
       <p className="text-center font-sans text-white">
         Copyright &copy; {new Date().getFullYear()} , All Rights Reserved By
-        SoftIT Solution
+        COMTECH Solution Limited
       </p>
     </div>
   );

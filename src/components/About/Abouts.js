@@ -29,9 +29,9 @@ const About = () => {
             design and write new software programs (e.g. business applications
             or computer games) and computer operating systems.
           </p>
-          <button className="px-2 py-1 bg-red-500">
-            <a className="text-white" href="">
-              Read More
+          <button className="px-2 py-1 bg-orange-500 rounded">
+            <a className="text-white font-bold" href="">
+              Read More...
             </a>
           </button>
         </div>

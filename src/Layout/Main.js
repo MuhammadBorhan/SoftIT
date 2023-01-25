@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import FooterBottom from "./FooterBottom";
 import FooterTop from "./FooterTop";
 import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
+import logo from "../assets/logo.png";
+import logo1 from "../assets/logo1.png";
 
 const Main = () => {
   const [bg, setBg] = useState(false);
-  const { pathname } = useLocation();
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -18,16 +19,22 @@ const Main = () => {
     <>
       <header
         className={` fixed text-white md:text-white top-0 w-full z-10 transition-all duration-300 ${
-          bg ? "bg-white h-20 border-b-2 " : "h-16 text-white"
+          bg ? "bg-white h-24 border-b-2 " : "h-20 text-white"
         } `}
       >
         <div
           className={`px-6 md:px-12 h-full flex items-center justify-between `}
         >
           {/* logo */}
-          <Link to="/" className="text-4xl font-bold">
-            <span className="text-cyan-500">Soft</span>
-            <span className="text-orange-500">IT</span>
+          <Link to="/" className="">
+            {/* <span className="text-cyan-500">Soft</span>
+            <span className="text-orange-500">IT</span> */}
+            <img
+              // src="https://i.ibb.co/8gvTfgk/1-1.jpg"
+              src={logo}
+              alt="logo"
+              className={`w-40 lg:w-full ${bg ? "" : "opacity-80 rounded"}`}
+            />
           </Link>
 
           {/* navbar for desktop*/}

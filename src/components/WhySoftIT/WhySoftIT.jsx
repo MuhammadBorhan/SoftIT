@@ -23,7 +23,7 @@ const WhySoftIT = () => {
           </p>
           <button className="px-6 py-3 rounded bg-sky-700 mt-4">
             <Link to="/about" className="text-white font-bold">
-              Why SoftIT
+              WHY COMTECH
             </Link>
           </button>
         </div>

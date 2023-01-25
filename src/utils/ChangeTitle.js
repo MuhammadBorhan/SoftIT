@@ -1,3 +1,3 @@
 export const ChangeTitle = (newTitle) => {
-  return (document.title = newTitle + "-" + "SoftIT");
+  return (document.title = newTitle + "-" + "ComTech");
 };

@@ -44,7 +44,7 @@ const Contact = () => {
               <MdEmail className=" block mx-auto text-green-700 text-4xl font-bold" />
             </span>
             <p className="text-xl font-bold">Email</p>
-            <p>borhan@gmail.com</p>
+            <p>info@comtech.com</p>
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 rounded">

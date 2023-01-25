@@ -3,12 +3,15 @@ import { BsLinkedin, BsTelephone, BsWhatsapp } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 import { MdArrowRightAlt, MdEmail, MdSendAndArchive } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const FooterTop = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 container bg-gray-900 text-white mx-auto p-10 relative top-24">
       <div>
-        <h1 className="text-5xl font-bold text-teal-400 mb-4">SoftIT</h1>
+        <h1 className="text-3xl  font-bold text-teal-400 mb-4">
+          ComTech Solution Limited
+        </h1>
         <p className="flex items-center gap-2 ">
           {" "}
           <ImLocation className="w-12 h-12 rounded-full text-orange-600" />
@@ -18,7 +21,7 @@ const FooterTop = () => {
         <p className="flex items-center gap-2 my-4">
           {" "}
           <MdEmail className="w-8 h-8 rounded-full text-orange-600" />{" "}
-          info@softit.com
+          info@comtech.com
         </p>
         <p className="flex items-center gap-2 ">
           {" "}
@@ -35,15 +38,16 @@ const FooterTop = () => {
           </li>
           <li className="flex items-center gap-2 mb-1 cursor-pointer hover:text-orange-400 transition-all duration-300">
             {" "}
-            <MdArrowRightAlt /> About Us
+            <MdArrowRightAlt />
+            <Link to="/about"> About Us</Link>
           </li>
           <li className="flex items-center gap-2 mb-1 cursor-pointer hover:text-orange-400 transition-all duration-300">
             {" "}
-            <MdArrowRightAlt /> Projects
+            <MdArrowRightAlt /> <Link to="/portfolio">Projects</Link>
           </li>
           <li className="flex items-center gap-2 mb-1 cursor-pointer hover:text-orange-400 transition-all duration-300">
             {" "}
-            <MdArrowRightAlt /> Contact Us
+            <MdArrowRightAlt /> <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
       </div>
