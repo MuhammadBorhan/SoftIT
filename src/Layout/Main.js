@@ -20,7 +20,7 @@ const Main = () => {
     <>
       <header
         className={` fixed text-white md:text-white top-0 w-full z-10 transition-all duration-300 ${
-          bg ? "bg-white h-24 border-b-2 " : "h-20 text-white"
+          bg ? "bg-white h-24 border-b-2 " : "h-20 bg-white"
         } `}
       >
         <div

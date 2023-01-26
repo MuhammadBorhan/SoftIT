@@ -3,7 +3,7 @@ import "./UiUxDesign.css";
 
 const UiUxDesign = ({ title, text }) => {
   return (
-    <div>
+    <div className="">
       <div>
         <div className="bg_uiux">
           <div className="flex justify-center px-6 lg:px-12 mt-20 flex-col gap-y-4 items-center h-screen">

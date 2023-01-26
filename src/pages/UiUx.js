@@ -6,7 +6,7 @@ const UiUx = () => {
   ChangeTitle("UX/UI Design");
   return (
     <div>
-      <UiUxDesign title="UI/UX DESIGNING" />
+      <UiUxDesign />
     </div>
   );
 };

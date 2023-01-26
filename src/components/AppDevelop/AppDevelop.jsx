@@ -3,7 +3,7 @@ import "./AppDevelop.css";
 
 const AppDevelop = ({ title, text }) => {
   return (
-    <div>
+    <div className="mt-20">
       <div>
         <div className="bg_app">
           <div className="flex justify-center px-6 lg:px-12 flex-col gap-y-4 items-center h-screen">

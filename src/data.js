@@ -199,7 +199,7 @@ export const projectsData = [
   {
     id: "1",
     image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/Capture1.0518074ec5cd5ad68dd1.PNG",
+      "https://borhanportfolio.netlify.app/static/media/Capture1.0518074ec5cd5ad68dd1.PNG",
     name: "Car Manufacture",
     desc: "Website of the essential parts of any car manufacturing company.",
     live: "https://glowing-conkies-fc5384.netlify.app/",
@@ -212,7 +212,7 @@ export const projectsData = [
   {
     id: "2",
     image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/material.90b41afd71bb6075d4f9.PNG",
+      "https://borhanportfolio.netlify.app/static/media/material.90b41afd71bb6075d4f9.PNG",
     name: "Material Purchase",
     desc: "Website of the essential products purchase from vendors.",
     live: "https://cheery-baklava-f9168f.netlify.app/",
@@ -223,7 +223,7 @@ export const projectsData = [
   {
     id: "3",
     image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/laptop.d649656ed422b1a8708d.PNG",
+      "https://borhanportfolio.netlify.app/static/media/laptop.d649656ed422b1a8708d.PNG",
     name: "Laptop Warehouse",
     desc: "Website of the essential laptops stocked from supplier for sale.",
     live: "https://scintillating-quokka-d477fd.netlify.app/",
@@ -236,7 +236,7 @@ export const projectsData = [
   {
     id: "4",
     image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/tutor.478313f7e3953cfccc8e.PNG",
+      "https://borhanportfolio.netlify.app/static/media/tutor.478313f7e3953cfccc8e.PNG",
     name: "Tutor Portland",
     desc: "Website of the essential products purchase from vendors.",
     live: "https://sparkly-travesseiro-3c9d55.netlify.app/",
@@ -247,7 +247,7 @@ export const projectsData = [
   {
     id: "5",
     image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/rolex.1a462bd430473bee85a1.PNG",
+      "https://borhanportfolio.netlify.app/static/media/rolex.1a462bd430473bee85a1.PNG",
     name: "RolexShop",
     desc: "Website of the essential products purchase from vendors.",
     live: "https://velvety-palmier-679f13.netlify.app/",
@@ -258,7 +258,7 @@ export const projectsData = [
   {
     id: "6",
     image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/phone.22be96c5227991d19e8a.PNG",
+      "https://borhanportfolio.netlify.app/static/media/phone.22be96c5227991d19e8a.PNG",
     name: "PANACEA-SHOP.COM",
     desc: "Website of the essential products purchase from vendors.",
     live: "https://splendorous-sunburst-d213a0.netlify.app/",
@@ -269,7 +269,7 @@ export const projectsData = [
   {
     id: "7",
     image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/page.88fd83a77fe566ac91d4.PNG",
+      "https://borhanportfolio.netlify.app/static/media/page.88fd83a77fe566ac91d4.PNG",
     name: "Influential commodity",
     desc: "Website of the essential products purchase from vendors.",
     live: "https://muhammadborhan.github.io/My_Second_Assginment/",
@@ -279,7 +279,7 @@ export const projectsData = [
   {
     id: "8",
     image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/responsive.998350e6c78a4cc9fc0f.PNG",
+      "https://borhanportfolio.netlify.app/static/media/responsive.998350e6c78a4cc9fc0f.PNG",
     name: "Charlotte Convention Center",
     desc: "Website of the essential products purchase from vendors.",
     live: "https://objective-mclean-51b05c.netlify.app/",
@@ -291,10 +291,55 @@ export const projectsData = [
 
 export const teamMates = [
   {
-    image:
-      "https://scontent.fdac4-2.fna.fbcdn.net/v/t39.30808-6/325285401_721873519373391_8268420761804291021_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE7mmuK7LRF7DnZGROAeOWqMPhSDy8rnlYw-FIPLyueVjeV2_UEHnxp0WzRPaLKR5ef2yuneWFZHslO6ybNCbvv&_nc_ohc=5uwDGABsJkwAX9KT5Rr&tn=KwB6qWNsXbu_ua48&_nc_zt=23&_nc_ht=scontent.fdac4-2.fna&oh=00_AfCMWLZh7vjgxMj4lV1SZrg-wdO9asVbUjXVmZwAZFP2PQ&oe=63D3CDB9",
-    name: "Borhan",
+    image: "https://i.ibb.co/JqnkshQ/mayin-With-Graduate.jpg",
+    name: "Mayin Uddin",
     position: "Web Developer",
+    media: [
+      {
+        name: "facebook",
+        link: "https://web.facebook.com/md.mayinuddin.900",
+      },
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/md-borhan-uddin-3a37a61a4/",
+      },
+      {
+        name: "instagram",
+        link: "https://www.instagram.com/",
+      },
+      {
+        name: "twitter",
+        link: "https://twitter.com/",
+      },
+    ],
+  },
+  {
+    image: "https://i.ibb.co/khf7h5q/mayin.jpg",
+    name: "Mr. Mayin",
+    position: "Fullstack Developer",
+    media: [
+      {
+        name: "facebook",
+        link: "https://web.facebook.com/md.mayinuddin.900",
+      },
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/md-borhan-uddin-3a37a61a4/",
+      },
+      {
+        name: "instagram",
+        link: "https://www.instagram.com/",
+      },
+      {
+        name: "twitter",
+        link: "https://twitter.com/",
+      },
+    ],
+  },
+  {
+    image: "https://i.ibb.co/mzp4QhR/borhan-Old.jpg",
+    name: "Mr. Borhan",
+    position: "Frontend Developer",
     media: [
       {
         name: "facebook",
@@ -315,56 +360,7 @@ export const teamMates = [
     ],
   },
   {
-    image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/borhan.d87b28879c1a50ffbd3f.png",
-    name: "Borhan",
-    position: "Web Developer",
-    media: [
-      {
-        name: "facebook",
-        link: "https://web.facebook.com/mdborhan.uddin.121",
-      },
-      {
-        name: "linkedin",
-        link: "https://www.linkedin.com/in/md-borhan-uddin-3a37a61a4/",
-      },
-      {
-        name: "instagram",
-        link: "https://www.instagram.com/",
-      },
-      {
-        name: "twitter",
-        link: "https://twitter.com/",
-      },
-    ],
-  },
-  {
-    image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/borhan.d87b28879c1a50ffbd3f.png",
-    name: "Borhan",
-    position: "Web Developer",
-    media: [
-      {
-        name: "facebook",
-        link: "https://web.facebook.com/mdborhan.uddin.121",
-      },
-      {
-        name: "linkedin",
-        link: "https://www.linkedin.com/in/md-borhan-uddin-3a37a61a4/",
-      },
-      {
-        name: "instagram",
-        link: "https://www.instagram.com/",
-      },
-      {
-        name: "twitter",
-        link: "https://twitter.com/",
-      },
-    ],
-  },
-  {
-    image:
-      "https://glowing-semifreddo-77c56f.netlify.app/static/media/borhan.d87b28879c1a50ffbd3f.png",
+    image: "https://i.ibb.co/Rvr6Ht8/IMG-20221230-175538.jpg",
     name: "Borhan",
     position: "Web Developer",
     media: [

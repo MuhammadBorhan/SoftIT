@@ -64,7 +64,7 @@ const Navbar = () => {
                   : "text-orange-500"
               }`}
             >
-              <Link to="">
+              <Link to="/service/web-development">
                 Services
                 <svg
                   className="fill-current"

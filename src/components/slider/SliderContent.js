@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SliderContent = ({ activeIndex, sliderImage }) => {
   return (
-    <section>
+    <section className="mt-20">
       {sliderImage.map((slide, index) => (
         <div
           key={index}
@@ -14,7 +14,7 @@ const SliderContent = ({ activeIndex, sliderImage }) => {
           <h3 className="slide-text text-xl md:text-2xl ">
             {slide.description}
           </h3>
-          <button
+          {/* <button
             style={{ zIndex: "1px" }}
             className=" button rounded hidden lg:block mt-24 -ml-8 lg:-ml-0 lg:mt-0"
           >
@@ -24,7 +24,7 @@ const SliderContent = ({ activeIndex, sliderImage }) => {
             >
               GET STARTED
             </Link>
-          </button>
+          </button> */}
         </div>
       ))}
       <div className="overlay"></div>

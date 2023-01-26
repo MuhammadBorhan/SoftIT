@@ -3,7 +3,7 @@ import "./WebDevelop.css";
 
 const WebDevelop = ({ title, text }) => {
   return (
-    <div>
+    <div className="mt-20">
       <div>
         <div className="bg_web">
           <div className="flex justify-center px-6 lg:px-12 flex-col gap-y-4 items-center h-screen">
@@ -14,6 +14,13 @@ const WebDevelop = ({ title, text }) => {
           </div>
         </div>
         <div className="overlay_web"></div>
+      </div>
+      <div>
+        <img
+          src="https://www.angularminds.com/angular-minds-admin/uploads/blog_images/d4e7f08b71cf52785843342351f223f1.png"
+          alt=""
+          className="lg:h-screen w-full"
+        />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 p-12 justify-center items-center gap-10 bg-slate-200">

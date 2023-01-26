@@ -6,7 +6,7 @@ const WebDevelopment = () => {
   ChangeTitle("Web Development");
   return (
     <div>
-      <WebDevelop title="WEB DESIGN & DEVELOPMENT" />
+      <WebDevelop />
     </div>
   );
 };
