@@ -7,6 +7,7 @@ import Navbar from "./Navbar";
 import logo from "../assets/logo.png";
 // import comtech from "../assets/comtech.png";
 import comtechLogo from "../assets/comtech_logo.png";
+import { FaPhoneVolume } from "react-icons/fa";
 
 const Main = () => {
   const [bg, setBg] = useState(false);
@@ -19,6 +20,7 @@ const Main = () => {
   return (
     <>
       <header
+        style={{ boxShadow: "1px 1px 5px lightblue" }}
         className={` fixed text-white md:text-white top-0 w-full z-10 transition-all duration-300 ${
           bg ? "bg-white h-24 border-b-2 " : "h-20 bg-white"
         } `}
@@ -46,6 +48,12 @@ const Main = () => {
           {/* navbar for mobile*/}
           <div className="lg:hidden z-50">
             <MobileNav />
+          </div>
+
+          {/* contact number */}
+          <div className="text-indigo-500 flex items-center gap-2">
+            <FaPhoneVolume />
+            <h1 className="font-bold">+8801620658621</h1>
           </div>
         </div>
       </header>

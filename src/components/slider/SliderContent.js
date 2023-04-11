@@ -27,7 +27,7 @@ const SliderContent = ({ activeIndex, sliderImage }) => {
           </button> */}
         </div>
       ))}
-      <div className="overlay"></div>
+      {/* <div className="overlay"></div> */}
     </section>
   );
 };

@@ -15,8 +15,7 @@ const FooterTop = () => {
         <p className="flex items-center gap-2 ">
           {" "}
           <ImLocation className="w-12 h-12 rounded-full text-orange-600" />
-          House 101 (2nd Floor), Road 5, Adarsha Nogor, Badda ( Gulshan ), Dhaka
-          -1212
+          House 2/17, B-Block, Lalmatia, Mohammadpur, Dhaka -1212
         </p>
         <p className="flex items-center gap-2 my-4">
           {" "}

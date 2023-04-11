@@ -12,7 +12,7 @@ const Banner = ({ image, title, text }) => {
           <p className="zIndex text-center lg:text-2xl text-white">{text}</p>
         </div>
       </div>
-      <div className="overlay"></div>
+      {/* <div className="overlay"></div> */}
     </div>
   );
 };

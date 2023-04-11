@@ -11,6 +11,7 @@ import WhySoftIT from "../components/WhySoftIT/WhySoftIT";
 import WorkedWith from "../components/WorkedWith/WorkedWith";
 import WorkingStep from "../components/WorkingStep/WorkingStep";
 import { ChangeTitle } from "../utils/ChangeTitle";
+import Features from "../components/Features/Features";
 
 const Home = () => {
   ChangeTitle("Home");
@@ -20,11 +21,12 @@ const Home = () => {
       {/* <Goal /> */}
       <Intro />
       <Services />
+      <Features />
       <WhySoftIT />
       <WorkingStep />
       <WorkedWith />
-      <Skills />
-      <MeetWithTeam />
+      {/* <Skills /> */}
+      {/* <MeetWithTeam /> */}
       <CarouselSlider />
       <Contact />
     </div>

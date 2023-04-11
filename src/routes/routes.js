@@ -9,6 +9,13 @@ import Portfolio from "../pages/Portfolio";
 import Price from "../pages/Price";
 import UiUx from "../pages/UiUx";
 import WebDevelopment from "../pages/WebDevelopment";
+import FakePage from "../pages/FakePage";
+import MessagefromMD from "../components/About/MessagefromMD";
+import AboutUs from "../components/About/AboutUs";
+import OurTeam from "../components/About/OurTeam";
+import Insurance from "../components/Clients/Insurance";
+import Hospitals from "../components/Clients/Hospitals";
+import Education from "../components/Clients/Education";
 
 const routes = createBrowserRouter([
   {
@@ -22,6 +29,30 @@ const routes = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/about/message-from-md",
+        element: <MessagefromMD />,
+      },
+      {
+        path: "/about/about-us",
+        element: <AboutUs />,
+      },
+      {
+        path: "/about/our-team",
+        element: <OurTeam />,
+      },
+      {
+        path: "/client/insurance",
+        element: <Insurance />,
+      },
+      {
+        path: "/client/hospital",
+        element: <Hospitals />,
+      },
+      {
+        path: "/client/education",
+        element: <Education />,
       },
       {
         path: "/portfolio",
@@ -46,6 +77,10 @@ const routes = createBrowserRouter([
       {
         path: "/service/app-development",
         element: <AppDevelopment />,
+      },
+      {
+        path: "/fakePage",
+        element: <FakePage />,
       },
       {
         path: "*",

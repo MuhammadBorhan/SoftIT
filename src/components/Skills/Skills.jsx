@@ -8,9 +8,9 @@ import ScrollTrigger from "react-scroll-trigger";
 const Skills = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
-    <div className="px-10 my-12">
+    <div className="px-10 my-12 bg-gray-100">
       <div className="text-center ">
-        <h1 className="text-4xl capitalize pb-4 horizontal">Our Skills</h1>
+        <h1 className="text-4xl capitalize pb-4 horizontal pt-6">Our Skills</h1>
         <p className="my-6 text-xl lg:w-3/5 mx-auto font-sans">
           The terms “computer skills” and “software skills” are often used
           interchangeably, as they refer to very similar knowledge. You can't
@@ -19,7 +19,7 @@ const Skills = () => {
       </div>
       <div
         className="px-0 lg:px-20"
-        data-aos="flip-right"
+        data-aos="flip-up"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000"
       >
@@ -43,7 +43,7 @@ const Skills = () => {
           onEnter={() => setCounterOn(true)}
           onExit={() => setCounterOn(false)}
         >
-          <div className="grid grid-cols-2 lg:grid-cols-4 text-center items-center py-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 text-center items-center py-6 ">
             <div>
               <p className="text-5xl font-bold my-4">
                 {" "}

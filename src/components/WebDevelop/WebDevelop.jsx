@@ -4,7 +4,7 @@ import "./WebDevelop.css";
 const WebDevelop = ({ title, text }) => {
   return (
     <div className="mt-20">
-      <div>
+      {/* <div>
         <div className="bg_web">
           <div className="flex justify-center px-6 lg:px-12 flex-col gap-y-4 items-center h-screen">
             <h1 className="zIndex text-white mb-32 bg-gray-500 p-2 rounded text-2xl lg:text-5xl text-center">
@@ -14,7 +14,7 @@ const WebDevelop = ({ title, text }) => {
           </div>
         </div>
         <div className="overlay_web"></div>
-      </div>
+      </div> */}
       <div>
         <img
           src="https://www.angularminds.com/angular-minds-admin/uploads/blog_images/d4e7f08b71cf52785843342351f223f1.png"
@@ -88,25 +88,25 @@ const WebDevelop = ({ title, text }) => {
         </div>
       </div>
 
-      <div className="p-12">
-        <div
-          className="p-8 flex gap-y-4 lg:gap-y-0 flex-col lg:flex-row items-center justify-between"
-          style={{ border: "3px dashed orange" }}
-        >
-          <div>
-            <h1 className="text-3xl font-bold mb-3">Do you like our works?</h1>
-            <p className="text-xl text-justify lg:w-[920px] font-sans">
-              Contact us today to learn more about how we can use our UI / UX
-              design solutions to help you meet your business goals.
-            </p>
-          </div>
-          <div>
-            <button className="bg-gradient-to-r from-orange-400 via-orange-600 to-orange-800 px-20 py-2 block mx-auto lg:mx-0 rounded-full text-white font-bold text-xl">
-              Hire Us Now
-            </button>
-          </div>
+      {/* <div className="p-12"> */}
+      <div
+        className="py-4 px-4 lg:px-0 m-12 mb-0 flex flex-col  items-center justify-between"
+        style={{ border: "3px dashed orange" }}
+      >
+        <div>
+          <h1 className="text-2xl font-bold mb-2 ">Do you like our works?</h1>
+          <p className=" text-justify font-sans">
+            Contact us today to learn more about how we can use our UI / UX
+            design solutions to help you meet your business goals.
+          </p>
+        </div>
+        <div>
+          <button className="bg-gradient-to-r from-orange-400 via-orange-600 to-orange-800 px-20 py-2 block mx-auto lg:mx-0 rounded-full text-white font-bold mt-4">
+            Hire Us Now
+          </button>
         </div>
       </div>
+      {/* </div> */}
     </div>
   );
 };

@@ -84,6 +84,9 @@ export const progresPercent = [
   { name: "React", color: "Purple", percent: "94%" },
   { name: "Nodejs", color: "Magenta", percent: "92%" },
   { name: "MongoDB", color: "Teal", percent: "90%" },
+  { name: "PHP", color: "blue", percent: "90%" },
+  { name: "MYSQL", color: "green", percent: "95%" },
+  { name: "Oracledb", color: "Magenta", percent: "92%" },
 ];
 
 export const priceDetails = [

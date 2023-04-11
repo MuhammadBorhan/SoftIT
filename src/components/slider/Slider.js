@@ -27,11 +27,11 @@ const Slider = (props) => {
           setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
         }
       />
-      <Dots
+      {/* <Dots
         activeIndex={activeIndex}
         sliderImage={sliderImage}
         onclick={(activeIndex) => setActiveIndex(activeIndex)}
-      />
+      /> */}
     </div>
   );
 };

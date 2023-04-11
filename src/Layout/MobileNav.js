@@ -103,7 +103,7 @@ const MobileNav = () => {
               >
                 <Link to="/">Home</Link>
               </li>
-              <li
+              {/* <li
                 className={` hover:text-orange-500 font-bold ${
                   pathname === "/about"
                     ? "text-orange-500 font-bold"
@@ -111,7 +111,120 @@ const MobileNav = () => {
                 }`}
                 onClick={() => setIsOpen(false)}
               >
-                <Link to="about">About</Link>
+                <Link to="">
+                  About
+                  <svg
+                    className="fill-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                  </svg>
+                </Link>
+                <ul className="p-2 bg-white w-60">
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/about/message-from-md">Message from MD</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/about/about-us">Who We Are</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/about/our-team">Our Team</Link>
+                  </li>
+                </ul>
+              </li> */}
+              <li
+                tabIndex={0}
+                className={` hover:text-orange-500 font-bold ${
+                  pathname === "/uiux"
+                    ? "text-orange-500 font-bold"
+                    : "text-white"
+                }`}
+              >
+                <Link to="#">
+                  About
+                  <svg
+                    className="fill-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                  </svg>
+                </Link>
+                <ul className="p-2 pl-0 bg-white w-56">
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/about/message-from-md">Message from MD</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/about/about-us">Who We Are</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/about/our-team">Our Team</Link>
+                  </li>
+                </ul>
+              </li>
+              <li
+                tabIndex={0}
+                className={` hover:text-orange-500 font-bold ${
+                  pathname === "/uiux"
+                    ? "text-orange-500 font-bold"
+                    : "text-white"
+                }`}
+              >
+                <Link to="#">
+                  Clients
+                  <svg
+                    className="fill-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                  </svg>
+                </Link>
+                <ul className="p-2 pl-0 bg-white w-56">
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/client/insurance">Insurance</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/client/hospital">Hospitals</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/client/Education">Educations</Link>
+                  </li>
+                </ul>
               </li>
               <li
                 tabIndex={0}
@@ -133,7 +246,7 @@ const MobileNav = () => {
                     <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                   </svg>
                 </Link>
-                <ul className="p-2 bg-white w-60">
+                <ul className="p-2 pl-0 bg-white w-56">
                   <li
                     className="text-black font-bold"
                     onClick={() => setIsOpen(false)}
@@ -145,7 +258,7 @@ const MobileNav = () => {
                     onClick={() => setIsOpen(false)}
                   >
                     <Link to="/service/web-development">
-                      Web Design & Development
+                      Web Design & Develop...
                     </Link>
                   </li>
                   <li
@@ -153,6 +266,47 @@ const MobileNav = () => {
                     onClick={() => setIsOpen(false)}
                   >
                     <Link to="/service/app-development">App Development</Link>
+                  </li>
+                </ul>
+              </li>
+              <li
+                tabIndex={0}
+                className={` hover:text-orange-500 font-bold ${
+                  pathname === "/uiux"
+                    ? "text-orange-500 font-bold"
+                    : "text-white"
+                }`}
+              >
+                <Link to="">
+                  Products
+                  <svg
+                    className="fill-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                  </svg>
+                </Link>
+                <ul className="p-2 pl-0 bg-white w-56">
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/product/insurance">Insurance</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/product/education">Education</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/product/hospital">Hospitals</Link>
                   </li>
                 </ul>
               </li>
@@ -167,7 +321,7 @@ const MobileNav = () => {
                 <Link to="portfolio">Portfolio</Link>
               </li>
               <li
-                className={` hover:text-orange-500 font-bold ${
+                className={`hidden hover:text-orange-500 font-bold ${
                   pathname === "/price"
                     ? "text-orange-500 font-bold"
                     : "text-white"
