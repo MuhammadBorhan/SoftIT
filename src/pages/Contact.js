@@ -1,6 +1,6 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
-import { FaLocationArrow } from "react-icons/fa";
+import { FaLocationArrow, FaPhoneVolume } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 import { MdEmail, MdLocationCity } from "react-icons/md";
 import Banner from "../components/banner/Banner";
@@ -9,14 +9,14 @@ import { ChangeTitle } from "../utils/ChangeTitle";
 const Contact = () => {
   ChangeTitle("Contact With Us");
   return (
-    <div>
-      <div>
+    <div className="mt-20">
+      {/* <div>
         <Banner
           image="url('https://www.scnsoft.com/blog-pictures/software-development-outsourcing/sw-development-teams.png')"
           title="Software Products to Maximize Business Value"
           text="Instead of just telling interviewers about your technical skillsets and expertise, a portfolio allows you to show them. Creating a portfolio site can seem daunting and time consuming."
         />
-      </div>
+      </div> */}
       <div className="px-12 py-10 bg-gray-100">
         <div className="flex flex-col items-center text-center mb-8">
           <h2 className="text-3xl font-bold">Contact With Us</h2>
@@ -30,14 +30,21 @@ const Contact = () => {
               <ImLocation className=" block mx-auto text-green-700 text-4xl font-bold" />
             </span>
             <p className="text-xl font-bold">Address</p>
-            <p>Badda, Dahaka-1212, Bangladesh</p>
+            <p>2/17, B-Block, Lalmatia, Mohammadpur, Dahaka-1212, Bangladesh</p>
           </div>
           <div className="shadow-md bg-white p-6  flex flex-col gap-y-2 rounded hover:bg-green-500 hover:text-white transition-all">
             <span>
               <BsTelephone className=" block mx-auto text-green-700 text-4xl font-bold" />
             </span>
             <p className="text-xl font-bold">Phone Number</p>
-            <p>+880-1620658621</p>
+            <div className="flex justify-center items-center">
+              <FaPhoneVolume />
+              <h1 className="">+8801620658621</h1>
+            </div>
+            <div className="flex justify-center items-center">
+              <FaPhoneVolume />
+              <h1 className="">+8801620658621</h1>
+            </div>
           </div>
           <div className="shadow-md bg-white p-6  flex flex-col gap-y-2 hover:bg-green-500 hover:text-white transition-all">
             <span>
@@ -45,6 +52,7 @@ const Contact = () => {
             </span>
             <p className="text-xl font-bold">Email</p>
             <p>info@comtech.com</p>
+            <p>comtechsbd@gmail.com</p>
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 rounded">

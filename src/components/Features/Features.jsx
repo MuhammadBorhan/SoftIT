@@ -22,7 +22,7 @@ const Features = () => {
       >
         Features
       </h1>
-      <p className="py-6 w-[800px] text-center mx-auto">
+      <p className="py-6 lg:w-[800px] text-center mx-auto">
         We develop responsive website and powerful complete management and
         accounting software for clients like insurance, hospital, educational
         organizations and etc

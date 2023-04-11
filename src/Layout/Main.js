@@ -51,7 +51,7 @@ const Main = () => {
           </div>
 
           {/* contact number */}
-          <div className="text-indigo-500 flex items-center gap-2">
+          <div className="text-indigo-500 flex items-center gap-2 hidden lg:block">
             <FaPhoneVolume />
             <h1 className="font-bold">+8801620658621</h1>
           </div>

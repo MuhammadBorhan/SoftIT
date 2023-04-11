@@ -6,14 +6,14 @@ import { ChangeTitle } from "../utils/ChangeTitle";
 const Portfolio = () => {
   ChangeTitle("Portfolio");
   return (
-    <div>
-      <div>
+    <div className="mt-20">
+      {/* <div>
         <Banner
           image="url('https://cdn.themexpert.com/images/easyblog_articles/2857/Banner.jpg')"
           title="Most software Company's need an online portfolio to establish credibility"
           text="Instead of just telling interviewers about your technical skillsets and expertise, a portfolio allows you to show them. Creating a portfolio site can seem daunting and time consuming."
         />
-      </div>
+      </div> */}
       <section className="py-12 px-6 lg:px-0 bg-black">
         <div
           className="container mx-auto"

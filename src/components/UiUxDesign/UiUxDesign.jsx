@@ -83,18 +83,20 @@ const UiUxDesign = ({ title, text }) => {
 
       <div className="p-12">
         <div
-          className="p-8 flex gap-y-4 lg:gap-y-0 flex-col lg:flex-row items-center justify-between"
+          className="py-4 px-4 lg:px-0 mb-0 flex flex-col  items-center justify-between"
           style={{ border: "3px dashed orange" }}
         >
           <div>
-            <h1 className="text-3xl font-bold mb-3">Do you like our works?</h1>
-            <p className="text-xl text-justify lg:w-[920px] font-sans">
+            <h1 className="text-sm lg:text-xl font-bold mb-2 ">
+              Do you like our works?
+            </h1>
+            <p className=" text-justify font-sans">
               Contact us today to learn more about how we can use our UI / UX
               design solutions to help you meet your business goals.
             </p>
           </div>
           <div>
-            <button className="bg-gradient-to-r from-orange-400 via-orange-600 to-orange-800 px-20 py-2 block mx-auto lg:mx-0 rounded-full text-white font-bold text-xl">
+            <button className="bg-gradient-to-r from-orange-400 via-orange-600 to-orange-800 px-2 lg:px-20 py-2 block mx-auto lg:mx-0 rounded-full text-white font-bold mt-4">
               Hire Us Now
             </button>
           </div>

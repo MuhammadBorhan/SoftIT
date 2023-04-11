@@ -234,7 +234,7 @@ const MobileNav = () => {
                     : "text-white"
                 }`}
               >
-                <Link to="">
+                <Link to="#">
                   Services
                   <svg
                     className="fill-current"
