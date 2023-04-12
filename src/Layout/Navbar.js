@@ -140,7 +140,7 @@ const Navbar = () => {
                 style={{ borderTop: "2px solid blue" }}
               >
                 <li className="text-orange-500 font-bold">
-                  <Link to="/service/uiux">UI/UX Designing</Link>
+                  <Link to="/service/softDev">Software Development</Link>
                 </li>
                 <li className="text-orange-500 font-bold">
                   <Link to="/service/web-development">
@@ -148,7 +148,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="text-orange-500 font-bold">
-                  <Link to="/service/app-development">App Development</Link>
+                  <Link to="/service/app-development">Apps Development</Link>
                 </li>
               </ul>
             </li>

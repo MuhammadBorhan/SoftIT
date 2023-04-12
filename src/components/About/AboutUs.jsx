@@ -33,6 +33,7 @@ const AboutUs = () => {
       <Abouts />
       <Goal />
       <Skills />
+      <h1 className="px-12 text-xl lg:2xl font-bold pb-2">FAQ_</h1>
       <div className="accordion mx-12">
         {items.map((item, index) => (
           <div className="accordion-item" key={index}>

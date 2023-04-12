@@ -9,7 +9,7 @@ const FooterTop = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 container bg-gray-900 text-white mx-auto p-10 relative top-24">
       <div>
-        <h1 className="text-3xl  font-bold text-teal-400 mb-4">
+        <h1 className="text-xl lg:text-3xl font-bold text-teal-400 mb-4">
           ComTech Solution Limited
         </h1>
         <p className="flex items-center gap-2 ">
@@ -29,7 +29,7 @@ const FooterTop = () => {
         </p>
       </div>
       <div className="ml-0 lg:ml-20">
-        <p className="text-xl font-bold mb-6">Company</p>
+        <p className="lg:text-xl font-bold mb-6">Company</p>
         <ul>
           <li className="flex items-center gap-2 mb-1 cursor-pointer hover:text-orange-400 transition-all duration-300">
             {" "}
@@ -51,7 +51,9 @@ const FooterTop = () => {
         </ul>
       </div>
       <div>
-        <h3 className="text-2xl font-bold mb-4">Subscribe newsletter</h3>
+        <h3 className="text-xl lg:text-2xl font-bold mb-4">
+          Subscribe newsletter
+        </h3>
         <p className="mb-2 font-mono">Get latest updates and offers</p>
         <div>
           <input
@@ -63,7 +65,7 @@ const FooterTop = () => {
             <MdSendAndArchive className="w-20 h-10 relative hidden lg:block lg:left-[292px] lg:bottom-[41px]  text-white bg-orange-500 rounded-full px-2" />
           </button>
         </div>
-        <p className="text-xl font-bold mt-2">Follow Us</p>
+        <p className="lg:text-xl font-bold mt-2">Follow Us</p>
         <div className="flex gap-6 mt-2">
           <a href="facebook.com">
             <FaFacebook className="" />

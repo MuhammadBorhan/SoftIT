@@ -12,7 +12,7 @@ const FooterBottom = () => {
         color="white"
         style={{ backgroundColor: "#3E8AB6", paddingTop: "7px" }}
       />
-      <p className="text-center font-sans text-white">
+      <p className="text-center font-sans text-white px-2">
         Copyright &copy; {new Date().getFullYear()} , All Rights Reserved By
         COMTECH Solution Limited
       </p>

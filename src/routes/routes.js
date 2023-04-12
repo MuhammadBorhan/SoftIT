@@ -67,7 +67,7 @@ const routes = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "/service/uiux",
+        path: "/service/softDev",
         element: <UiUx />,
       },
       {
