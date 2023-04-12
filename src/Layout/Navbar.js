@@ -49,7 +49,11 @@ const Navbar = () => {
             </li>
             <li
               className={` hover:text-blue-500 font-bold ${
-                pathname === "/about"
+                pathname === "/about/message-from-md"
+                  ? "text-blue-500 font-bold"
+                  : pathname === "/about/about-us"
+                  ? "text-blue-500 font-bold"
+                  : pathname === "/about/our-team"
                   ? "text-blue-500 font-bold"
                   : "text-orange-500"
               }`}
@@ -83,7 +87,11 @@ const Navbar = () => {
             </li>
             <li
               className={` hover:text-blue-500 font-bold ${
-                pathname === "/about"
+                pathname === "/client/insurance"
+                  ? "text-blue-500 font-bold"
+                  : pathname === "/client/hospital"
+                  ? "text-blue-500 font-bold"
+                  : pathname === "/client/Education"
                   ? "text-blue-500 font-bold"
                   : "text-orange-500"
               }`}
@@ -118,7 +126,11 @@ const Navbar = () => {
             <li
               tabIndex={0}
               className={` hover:text-blue-500 font-bold ${
-                pathname === "/uiux"
+                pathname === "/service/softDev"
+                  ? "text-blue-500 font-bold"
+                  : pathname === "/service/web-development"
+                  ? "text-blue-500 font-bold"
+                  : pathname === "/service/app-development"
                   ? "text-blue-500 font-bold"
                   : "text-orange-500"
               }`}
@@ -178,6 +190,9 @@ const Navbar = () => {
               >
                 <li className="text-orange-500 font-bold">
                   <Link to="/product/insurance">Insurance</Link>
+                </li>
+                <li className="text-orange-500 font-bold">
+                  <Link to="/product/business">Business</Link>
                 </li>
                 <li className="text-orange-500 font-bold">
                   <Link to="/product/education">Education</Link>

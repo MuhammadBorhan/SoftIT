@@ -16,6 +16,8 @@ import OurTeam from "../components/About/OurTeam";
 import Insurance from "../components/Clients/Insurance";
 import Hospitals from "../components/Clients/Hospitals";
 import Education from "../components/Clients/Education";
+import InsuranceProduct from "../pages/Products/Insurance";
+import Business from "../pages/Products/Business";
 
 const routes = createBrowserRouter([
   {
@@ -77,6 +79,14 @@ const routes = createBrowserRouter([
       {
         path: "/service/app-development",
         element: <AppDevelopment />,
+      },
+      {
+        path: "/product/insurance",
+        element: <InsuranceProduct />,
+      },
+      {
+        path: "/product/business",
+        element: <Business />,
       },
       {
         path: "/fakePage",
