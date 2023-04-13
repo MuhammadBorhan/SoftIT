@@ -1,6 +1,12 @@
 import React from "react";
+import "./Hospital.css";
 import InsuranceCard from "./InsuranceCard";
-import { MdAdminPanelSettings, MdManageAccounts } from "react-icons/md";
+import {
+  MdAdminPanelSettings,
+  MdManageAccounts,
+  MdCastForEducation,
+  MdOutlineLocalHospital,
+} from "react-icons/md";
 import {
   AiTwotoneInsurance,
   AiOutlineAreaChart,
@@ -11,16 +17,16 @@ import {
   GiBud,
   GiNotebook,
   GiMissilePod,
+  GiBookshelf,
 } from "react-icons/gi";
 import { FaUsers } from "react-icons/fa";
 import { SiFdroid } from "react-icons/si";
-import "./Insurance.css";
 
-const Insurance = () => {
+const Hospital = () => {
   return (
     <div>
       <div>
-        <div className="bg_web"></div>
+        <div className="hos_web"></div>
         <div className="overlay_web"></div>
       </div>
       <div className="mt-28 grid grid-cols-3 lg:grid-cols-6 px-12 gap-4">
@@ -41,6 +47,38 @@ const Insurance = () => {
         <p className="hidden lg:block">
           {" "}
           <InsuranceCard
+            icon={<MdOutlineLocalHospital size={80} />}
+            title="Hospital"
+            color="hos"
+          />
+        </p>
+        <p className="block lg:hidden">
+          {" "}
+          <InsuranceCard
+            icon={<MdOutlineLocalHospital size={50} />}
+            title="Hospital"
+            color="hos"
+          />
+        </p>
+        <p className="hidden lg:block">
+          {" "}
+          <InsuranceCard
+            icon={<GiBookshelf size={80} />}
+            title="Library"
+            color="li"
+          />
+        </p>
+        <p className="block lg:hidden">
+          {" "}
+          <InsuranceCard
+            icon={<GiBookshelf size={50} />}
+            title="Library"
+            color="li"
+          />
+        </p>
+        <p className="hidden lg:block">
+          {" "}
+          <InsuranceCard
             icon={<MdManageAccounts size={80} />}
             title="Accounts"
             color="g"
@@ -52,38 +90,6 @@ const Insurance = () => {
             icon={<MdManageAccounts size={50} />}
             title="Accounts"
             color="g"
-          />
-        </p>
-        <p className="hidden lg:block">
-          {" "}
-          <InsuranceCard
-            icon={<AiTwotoneInsurance size={80} />}
-            title="Co-Insurance"
-            color="i"
-          />
-        </p>
-        <p className="block lg:hidden">
-          {" "}
-          <InsuranceCard
-            icon={<AiTwotoneInsurance size={50} />}
-            title="Co-Insu."
-            color="i"
-          />
-        </p>
-        <p className="hidden lg:block">
-          {" "}
-          <InsuranceCard
-            icon={<AiTwotoneInsurance size={80} />}
-            title="Re-Insurance"
-            color="i"
-          />
-        </p>
-        <p className="block lg:hidden">
-          {" "}
-          <InsuranceCard
-            icon={<AiTwotoneInsurance size={50} />}
-            title="Re-Insu."
-            color="i"
           />
         </p>
         <p className="hidden lg:block">
@@ -185,4 +191,4 @@ const Insurance = () => {
   );
 };
 
-export default Insurance;
+export default Hospital;

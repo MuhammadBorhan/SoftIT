@@ -18,6 +18,8 @@ import Hospitals from "../components/Clients/Hospitals";
 import Education from "../components/Clients/Education";
 import InsuranceProduct from "../pages/Products/Insurance";
 import Business from "../pages/Products/Business";
+import Edu from "../pages/Products/Education";
+import Hospital from "../pages/Products/Hospital";
 
 const routes = createBrowserRouter([
   {
@@ -87,6 +89,14 @@ const routes = createBrowserRouter([
       {
         path: "/product/business",
         element: <Business />,
+      },
+      {
+        path: "/product/education",
+        element: <Edu />,
+      },
+      {
+        path: "/product/hospital",
+        element: <Hospital />,
       },
       {
         path: "/fakePage",

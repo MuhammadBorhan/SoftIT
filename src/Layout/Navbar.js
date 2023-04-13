@@ -42,7 +42,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">
             <li
               className={` hover:text-blue-500 font-bold ${
-                pathname === "/" ? "text-blue-500 font-bold" : "text-orange-500"
+                pathname === "/" ? "text-blue-500 font-bold" : "text-black"
               }`}
             >
               <Link to="/">Home</Link>
@@ -55,7 +55,7 @@ const Navbar = () => {
                   ? "text-blue-500 font-bold"
                   : pathname === "/about/our-team"
                   ? "text-blue-500 font-bold"
-                  : "text-orange-500"
+                  : "text-black"
               }`}
             >
               <Link to="#">
@@ -93,7 +93,7 @@ const Navbar = () => {
                   ? "text-blue-500 font-bold"
                   : pathname === "/client/Education"
                   ? "text-blue-500 font-bold"
-                  : "text-orange-500"
+                  : "text-black"
               }`}
             >
               <Link to="#">
@@ -132,7 +132,7 @@ const Navbar = () => {
                   ? "text-blue-500 font-bold"
                   : pathname === "/service/app-development"
                   ? "text-blue-500 font-bold"
-                  : "text-orange-500"
+                  : "text-black"
               }`}
             >
               <Link to="#">
@@ -167,9 +167,12 @@ const Navbar = () => {
             <li
               tabIndex={0}
               className={` hover:text-blue-500 font-bold ${
-                pathname === "/uiux"
+                pathname === "/product/insurance" ||
+                pathname === "/product/business" ||
+                pathname === "/product/education" ||
+                pathname === "/product/hospital"
                   ? "text-blue-500 font-bold"
-                  : "text-orange-500"
+                  : "text-black"
               }`}
             >
               <Link to="/service/web-development">
@@ -206,16 +209,14 @@ const Navbar = () => {
               className={` hover:text-blue-500 font-bold ${
                 pathname === "/portfolio"
                   ? "text-blue-500 font-bold"
-                  : "text-orange-500"
+                  : "text-black"
               }`}
             >
               <Link to="portfolio">Training</Link>
             </li>
             <li
               className={`hidden hover:text-blue-500 font-bold ${
-                pathname === "/price"
-                  ? "text-blue-500 font-bold"
-                  : "text-orange-500"
+                pathname === "/price" ? "text-blue-500 font-bold" : "text-black"
               }`}
             >
               <Link to="price">Price</Link>
@@ -224,7 +225,7 @@ const Navbar = () => {
               className={` hover:text-blue-500 font-bold ${
                 pathname === "/contact"
                   ? "text-blue-500 font-bold"
-                  : "text-orange-500"
+                  : "text-black"
               }`}
             >
               <Link to="contact">Contact</Link>

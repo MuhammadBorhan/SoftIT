@@ -21,8 +21,10 @@ const Main = () => {
     <>
       <header
         style={{ boxShadow: "1px 1px 5px lightblue" }}
-        className={` fixed text-white md:text-white top-0 w-full z-10 transition-all duration-300 ${
-          bg ? "bg-white h-24 border-b-2 " : "h-20 bg-white"
+        className={` fixed top-0 w-full z-10 transition-all duration-300 ${
+          bg
+            ? "bg-gradient-to-r from-gray-200 from-10% via-sky-100 via-30% to-purple-200 to-90%  h-24 border-b-2 "
+            : "h-20 bg-gradient-to-r from-slate-200 from-10% via-gray-100 via-30% to-gray-300 to-90%"
         } `}
       >
         <div
@@ -51,9 +53,14 @@ const Main = () => {
           </div>
 
           {/* contact number */}
-          <div className="text-indigo-500 flex items-center gap-2 hidden lg:block">
-            <FaPhoneVolume />
-            <h1 className="font-bold">+8801620658621</h1>
+          <div className="hidden lg:block">
+            <div className="text-green-700 flex w-[200px] items-center gap-2 ">
+              <FaPhoneVolume className="" />
+              <div>
+                <h1 className="font-bold">+8801987851923</h1>
+                <h1 className="font-bold">+8801620658621</h1>
+              </div>
+            </div>
           </div>
         </div>
       </header>

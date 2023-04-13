@@ -296,6 +296,9 @@ const MobileNav = () => {
                   >
                     <Link to="/product/insurance">Insurance</Link>
                   </li>
+                  <li className="text-orange-500 font-bold">
+                    <Link to="/product/business">Business</Link>
+                  </li>
                   <li
                     className="text-black font-bold"
                     onClick={() => setIsOpen(false)}
