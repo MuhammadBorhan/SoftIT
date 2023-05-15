@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { navigation } from "../data";
+import { MdArrowRightAlt } from "react-icons/md";
+import { IoMdArrowDropright } from "react-icons/io";
 
 const Navbar = () => {
   const [active, setActive] = useState(0);
@@ -9,6 +11,9 @@ const Navbar = () => {
   };
 
   const { pathname } = useLocation();
+
+  const [corporate, setCorporate] = useState(false);
+
   return (
     <nav>
       {/* <ul className="flex space-x-8 capitalize text-[15px]">
@@ -194,8 +199,34 @@ const Navbar = () => {
                 <li className="text-black font-bold">
                   <Link to="/product/insurance">Finance</Link>
                 </li>
-                <li className="text-black font-bold">
-                  <Link to="/product/insurance">Corporates</Link>
+                <li
+                  onClick={() => setCorporate(!corporate)}
+                  className={`text-black font-bold relative`}
+                >
+                  <Link>
+                    Corporates <IoMdArrowDropright />
+                  </Link>
+                  {corporate && (
+                    <ul
+                      className="absolute left-[-100px] bg-white p-2 z-50"
+                      style={{ lineHeight: "40px" }}
+                    >
+                      <li className="cursor-pointer hover:bg-slate-200 px-2">
+                        <Link
+                          to="/product/erp"
+                          className="bg-transparent p-0 m-0"
+                        >
+                          ERP
+                        </Link>
+                      </li>
+                      <li className="cursor-pointer hover:bg-slate-200 px-2">
+                        PAYROLL
+                      </li>
+                      <li className="cursor-pointer hover:bg-slate-200 px-2">
+                        HR Management
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li className="text-black font-bold">
                   <Link to="/product/insurance">Artificial Intelligence</Link>
