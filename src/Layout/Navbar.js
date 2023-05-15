@@ -59,7 +59,7 @@ const Navbar = () => {
               }`}
             >
               <Link to="#">
-                About
+                Know Us
                 <svg
                   className="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ const Navbar = () => {
                 style={{ borderTop: "2px solid blue" }}
               >
                 <li className="text-orange-500 font-bold">
-                  <Link to="/about/message-from-md">Message from MD</Link>
+                  <Link to="/about/message-from-md">Management</Link>
                 </li>
                 <li className="text-orange-500 font-bold">
                   <Link to="/about/about-us">Who We Are</Link>
@@ -191,16 +191,28 @@ const Navbar = () => {
                 className="p-2 bg-slate-100"
                 style={{ borderTop: "2px solid blue" }}
               >
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
+                  <Link to="/product/insurance">Finance</Link>
+                </li>
+                <li className="text-black font-bold">
+                  <Link to="/product/insurance">Corporates</Link>
+                </li>
+                <li className="text-black font-bold">
+                  <Link to="/product/insurance">Artificial Intelligence</Link>
+                </li>
+                <li className="text-black font-bold">
+                  <Link to="/product/insurance">Internet of Things</Link>
+                </li>
+                <li className="text-black font-bold">
                   <Link to="/product/insurance">Insurance</Link>
                 </li>
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/product/business">Business</Link>
                 </li>
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/product/education">Education</Link>
                 </li>
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/product/hospital">Hospitals</Link>
                 </li>
               </ul>

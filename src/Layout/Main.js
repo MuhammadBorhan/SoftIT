@@ -54,10 +54,9 @@ const Main = () => {
 
           {/* contact number */}
           <div className="hidden lg:block">
-            <div className="text-green-700 flex w-[200px] items-center gap-2 ">
+            <div className="text-indigo-600 flex w-[200px] items-center gap-2 ">
               <FaPhoneVolume className="" />
               <div>
-                <h1 className="font-bold">+8801987851923</h1>
                 <h1 className="font-bold">+8801620658621</h1>
               </div>
             </div>

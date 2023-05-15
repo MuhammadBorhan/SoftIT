@@ -153,7 +153,7 @@ const MobileNav = () => {
                 }`}
               >
                 <Link to="#">
-                  About
+                  Know Us
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +169,7 @@ const MobileNav = () => {
                     className="text-black font-bold"
                     onClick={() => setIsOpen(false)}
                   >
-                    <Link to="/about/message-from-md">Message from MD</Link>
+                    <Link to="/about/message-from-md">Management</Link>
                   </li>
                   <li
                     className="text-black font-bold"
@@ -290,6 +290,30 @@ const MobileNav = () => {
                   </svg>
                 </Link>
                 <ul className="p-2 pl-0 bg-white w-56">
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/product/insurance">Finance</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/product/insurance">Corporates</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/product/insurance">Artificial Intelligence</Link>
+                  </li>
+                  <li
+                    className="text-black font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Link to="/product/insurance">Internet of Things</Link>
+                  </li>
                   <li
                     className="text-black font-bold"
                     onClick={() => setIsOpen(false)}

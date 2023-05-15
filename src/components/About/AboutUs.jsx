@@ -20,7 +20,7 @@ const AboutUs = () => {
     {
       title: "Company Profile?",
       content:
-        "Confidence Software was established in January 2005. Since then, Confidence Software have consistently progressed and expanded operating in a diverse range of activities. Its primary goal was to develop customized software and provide the clients with any kind of software support. During the first year, Confidence Software developed a number of customized software for some renowned organizations. Currently a strong Confidence Software team, composed of enthusiastic, youthful, talented and highly motivated professionals is committed to give excellent client service. Confidence Software its strong business goodwill as blessing and uses it as the stairway to its future growth.",
+        "Comtech Software was established in January 2022. Since then, Comtech Software have consistently progressed and expanded operating in a diverse range of activities. Its primary goal was to develop customized software and provide the clients with any kind of software support. During the first year, Comtech Software developed a number of customized software for some renowned organizations. Currently a strong Confidence Software team, composed of enthusiastic, youthful, talented and highly motivated professionals is committed to give excellent client service. Comtech Software its strong business goodwill as blessing and uses it as the stairway to its future growth.",
     },
   ];
   const [activeIndex, setActiveIndex] = useState(null);

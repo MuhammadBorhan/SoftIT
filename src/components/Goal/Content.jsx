@@ -10,9 +10,6 @@ const Content = ({ title, img, desc, icon }) => {
       <div className="card-body items-center text-center">
         <h2 className="card-title mt-[-30px]">{title}</h2>
         <p className="text-justify my-2">{desc}</p>
-        <div className="card-actions">
-          <button className="btn btn-primary">Read More</button>
-        </div>
       </div>
     </div>
   );

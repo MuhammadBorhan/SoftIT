@@ -28,7 +28,7 @@ const Home = () => {
       {/* <Skills /> */}
       {/* <MeetWithTeam /> */}
       <CarouselSlider />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 };

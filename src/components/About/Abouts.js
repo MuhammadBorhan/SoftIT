@@ -4,13 +4,8 @@ import "./Abouts.css";
 const About = () => {
   return (
     <div className="px-10 my-12">
-      <div className="text-center ">
-        <h1 className="text-4xl capitalize pb-4 horizontal">About Us</h1>
-        <p className="my-6 text-xl lg:w-3/5 mx-auto font-sans">
-          Software engineering is the branch of computer science that deals with
-          the design, development, testing, and maintenance of software
-          applications.
-        </p>
+      <div className="text-center mb-10">
+        <h1 className="text-4xl capitalize pb-2 horizontal">About Us</h1>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div>
@@ -21,19 +16,22 @@ const About = () => {
           />
         </div>
         <div className="text-center lg:text-left">
-          <h2 className="text-3xl text-indigo-500">Welcome To Our Site</h2>
-          <p className="text-xl lg:text-justify font-serif my-6">
-            As a software engineer, you'll need to: analyse user requirements.
-            write and test code, refining and rewriting it as necessary and
-            communicate with any programmers involved in the project. research,
-            design and write new software programs (e.g. business applications
-            or computer games) and computer operating systems.
+          <p
+            className="text- lg:text-justify font-serif my-6"
+            style={{ lineHeight: "35px" }}
+          >
+            Comtech Software was established in January 2022. Since then,
+            Comtech Software have consistently progressed and expanded operating
+            in a diverse range of activities. Its primary goal was to develop
+            customized software and provide the clients with any kind of
+            software support. During the first year, Comtech Software developed
+            a number of customized software for some renowned organizations.
+            Currently a strong Comtech Software team, composed of enthusiastic,
+            youthful, talented and highly motivated professionals is committed
+            to give excellent client service. Comtech Software its strong
+            business goodwill as blessing and uses it as the stairway to its
+            future growth
           </p>
-          <button className="px-2 py-1 bg-orange-500 rounded">
-            <a className="text-white font-bold" href="">
-              Read More...
-            </a>
-          </button>
         </div>
       </div>
     </div>

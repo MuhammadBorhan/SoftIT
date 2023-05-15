@@ -9,7 +9,7 @@ const SliderContent = ({ activeIndex, sliderImage }) => {
           key={index}
           className={index === activeIndex ? "slides active" : "inactive"}
         >
-          <img className="slide-image" src={slide.urls} alt="" />
+          <img className="slide-image object-cover" src={slide.urls} alt="" />
           <h2 className="slide-title text-3xl md:text-5xl ">{slide.title}</h2>
           <h3 className="slide-text text-xl md:text-2xl ">
             {slide.description}
