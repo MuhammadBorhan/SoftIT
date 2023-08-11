@@ -79,13 +79,13 @@ const Navbar = () => {
                 className="p-2 bg-slate-100"
                 style={{ borderTop: "2px solid blue" }}
               >
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/about/message-from-md">Management</Link>
                 </li>
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/about/about-us">Who We Are</Link>
                 </li>
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/about/our-team">Our Team</Link>
                 </li>
               </ul>
@@ -117,13 +117,13 @@ const Navbar = () => {
                 className="p-2 bg-slate-100"
                 style={{ borderTop: "2px solid blue" }}
               >
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/client/insurance">Insurance</Link>
                 </li>
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/client/hospital">Hospitals</Link>
                 </li>
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/client/Education">Educations</Link>
                 </li>
               </ul>
@@ -156,15 +156,15 @@ const Navbar = () => {
                 className="p-2 bg-slate-100"
                 style={{ borderTop: "2px solid blue" }}
               >
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/service/softDev">Software Development</Link>
                 </li>
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/service/web-development">
                     Web Design & Development
                   </Link>
                 </li>
-                <li className="text-orange-500 font-bold">
+                <li className="text-black font-bold">
                   <Link to="/service/app-development">Apps Development</Link>
                 </li>
               </ul>

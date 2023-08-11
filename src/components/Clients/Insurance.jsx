@@ -1,7 +1,14 @@
 import React from "react";
 import InsuranceCard from "./InsuranceCard";
+import { useEffect } from "react";
 
 const Insurance = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="pt-28 bg-gray-200">
       <h1

@@ -1,7 +1,14 @@
 import React from "react";
 import "./Abouts.css";
+import { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="px-10 my-12">
       <div className="text-center mb-10">

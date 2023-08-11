@@ -1,6 +1,13 @@
 import React from "react";
+import { useEffect } from "react";
 
 const MessagefromMD = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="mt-20 flex flex-col justify-center items-center">
       <div className="mt-20">

@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import "./OurTeam.css";
 import MeetWithTeam from "../MeetWithTeam/MeetWithTeam";
 
 const OurTeam = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="mt-20">
       <div>

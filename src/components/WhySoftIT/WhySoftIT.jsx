@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AiFillChrome, AiFillCodeSandboxCircle } from "react-icons/ai";
 import { MdOutlinePriceChange } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const WhySoftIT = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="px-12 lg:px-32 bg-slate-100 py-6">
       <h1 className="text-center text-2xl lg:text-4xl my-8 font-bold">

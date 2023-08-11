@@ -1,7 +1,14 @@
 import React from "react";
 import HospitalCard from "./HospitalCard";
+import { useEffect } from "react";
 
 const Hospitals = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="pt-28 bg-gray-200">
       <h1

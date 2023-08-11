@@ -33,12 +33,8 @@ const FooterTop = () => {
         <ul>
           <li className="flex items-center gap-2 mb-1 cursor-pointer hover:text-orange-400 transition-all duration-300">
             {" "}
-            <MdArrowRightAlt /> Our Blog
-          </li>
-          <li className="flex items-center gap-2 mb-1 cursor-pointer hover:text-orange-400 transition-all duration-300">
-            {" "}
             <MdArrowRightAlt />
-            <Link to="/about"> About Us</Link>
+            <Link to="/about/about-us"> About Us</Link>
           </li>
           <li className="flex items-center gap-2 mb-1 cursor-pointer hover:text-orange-400 transition-all duration-300">
             {" "}

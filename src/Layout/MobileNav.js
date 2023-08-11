@@ -4,6 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
 import { navigation } from "../data";
 import { Link, useLocation } from "react-router-dom";
+import { IoMdArrowDropright } from "react-icons/io";
 
 const MobileNav = () => {
   const { pathname } = useLocation();
@@ -14,6 +15,7 @@ const MobileNav = () => {
     setIsOpen(false);
     setActive(index);
   };
+  const [corporate, setCorporate] = useState(false);
 
   const circleVariants = {
     hidden: {
@@ -297,10 +299,33 @@ const MobileNav = () => {
                     <Link to="/product/insurance">Finance</Link>
                   </li>
                   <li
-                    className="text-black font-bold"
-                    onClick={() => setIsOpen(false)}
+                    onClick={() => setCorporate(!corporate)}
+                    className={`text-black font-bold relative`}
                   >
-                    <Link to="/product/insurance">Corporates</Link>
+                    <Link>
+                      Corporates <IoMdArrowDropright />
+                    </Link>
+                    {corporate && (
+                      <ul
+                        className="absolute left-[-100px] bg-white p-2 z-50"
+                        style={{ lineHeight: "40px" }}
+                      >
+                        <li className="cursor-pointer hover:bg-slate-200 px-2">
+                          <Link
+                            to="/product/erp"
+                            className="bg-transparent p-0 m-0"
+                          >
+                            ERP
+                          </Link>
+                        </li>
+                        <li className="cursor-pointer hover:bg-slate-200 px-2">
+                          PAYROLL
+                        </li>
+                        <li className="cursor-pointer hover:bg-slate-200 px-2">
+                          HR Management
+                        </li>
+                      </ul>
+                    )}
                   </li>
                   <li
                     className="text-black font-bold"
