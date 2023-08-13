@@ -5,10 +5,10 @@ const WorkingStep = () => {
   return (
     <div className="bg-slate-200 py-12">
       <div className="text-center px-6 lg:px-0">
-        <h1 className="text-4xl capitalize pb-4 horizontal">
+        <h1 className="text-xl md:text-3xl capitalize pb-4 horizontal">
           Our Working Process
         </h1>
-        <p className="my-6 text-xl lg:w-3/5 mx-auto font-sans">
+        <p className="my-6 font-light lg:w-3/5 mx-auto font-sans">
           We’ll start your project by reviewing your needs and expectations.
           We’ll then recommend the right approach, the budget, the growth to
           expect and timeline for the project.

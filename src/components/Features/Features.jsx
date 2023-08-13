@@ -12,7 +12,7 @@ const Features = () => {
   return (
     <div className="p-12">
       <h1
-        className="text-center text-3xl font-bold uppercase pb-4"
+        className="text-center text-xl md:text-2xl font-bold uppercase pb-2 md:pb-4"
         style={{
           borderBottom: "2px solid blue",
           width: "max-content",
@@ -22,7 +22,7 @@ const Features = () => {
       >
         Features
       </h1>
-      <p className="py-6 lg:w-[800px] text-center mx-auto">
+      <p className="py-6 lg:w-[800px] text-center font-light mx-auto">
         We develop responsive website and powerful complete management and
         accounting software for clients like insurance, hospital, educational
         organizations and etc

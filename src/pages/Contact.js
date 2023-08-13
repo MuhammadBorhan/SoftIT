@@ -19,40 +19,42 @@ const Contact = () => {
       </div> */}
       <div className="px-12 py-10 bg-gray-100">
         <div className="flex flex-col items-center text-center mb-8">
-          <h2 className="text-3xl font-bold">Contact With Us</h2>
-          <p className="">
+          <h2 className="text-xl md:text-3xl font-bold">Contact With Us</h2>
+          <p className="text-sm md:text-lg">
             If you have any information please E-mail or Phone us
           </p>
         </div>
         <div className="grid grid-cols-1  lg:grid-cols-3 justify-center text-center items-center gap-10 my-8">
-          <div className="shadow-lg bg-white p-6 flex flex-col gap-y-2 rounded hover:bg-green-500 hover:text-white transition-all">
+          <div className="shadow-lg h-32 md:h-44 bg-white p-6 flex flex-col gap-y-2 rounded hover:bg-green-500 hover:text-white transition-all">
             <span>
-              <ImLocation className=" block mx-auto text-green-700 text-4xl font-bold" />
+              <ImLocation className=" block mx-auto text-green-700 text-2xl md:text-4xl font-bold" />
             </span>
-            <p className="text-xl font-bold">Address</p>
-            <p>2/17, B-Block, Lalmatia, Mohammadpur, Dahaka-1212, Bangladesh</p>
+            <p className="text-sm md:text-xl font-bold">Address</p>
+            <p className="text-xs md:text-sm">
+              1/3, Block #B, Lalmatia, Mohammadpur, Dahaka-1212, Bangladesh
+            </p>
           </div>
-          <div className="shadow-md bg-white p-6  flex flex-col gap-y-2 rounded hover:bg-green-500 hover:text-white transition-all">
+          <div className="shadow-lg h-32 md:h-44 bg-white p-6  flex flex-col gap-y-2 rounded hover:bg-green-500 hover:text-white transition-all">
             <span>
-              <BsTelephone className=" block mx-auto text-green-700 text-4xl font-bold" />
+              <BsTelephone className=" block mx-auto text-green-700 text-2xl md:text-4xl font-bold" />
             </span>
-            <p className="text-xl font-bold">Phone Number</p>
+            <p className="text-sm md:text-xl font-bold">Phone Number</p>
             <div className="flex justify-center items-center">
               <FaPhoneVolume />
-              <h1 className="">+8801620658621</h1>
+              <h1 className="text-xs md:text-sm">+8801620658621</h1>
             </div>
-            <div className="flex justify-center items-center">
+            {/* <div className="flex justify-center items-center">
               <FaPhoneVolume />
               <h1 className="">+8801620658621</h1>
-            </div>
+            </div> */}
           </div>
-          <div className="shadow-md bg-white p-6  flex flex-col gap-y-2 hover:bg-green-500 hover:text-white transition-all">
+          <div className="shadow-lg h-32 md:h-44 bg-white p-6  flex flex-col gap-y-2 hover:bg-green-500 hover:text-white transition-all">
             <span>
-              <MdEmail className=" block mx-auto text-green-700 text-4xl font-bold" />
+              <MdEmail className=" block mx-auto text-green-700 text-2xl md:text-4xl font-bold" />
             </span>
-            <p className="text-xl font-bold">Email</p>
-            <p>info@comtech.com</p>
-            <p>comtechsbd@gmail.com</p>
+            <p className="text-sm md:text-xl font-bold">Email</p>
+            {/* <p>info@comtech.com</p> */}
+            <p className="text-xs md:text-sm">comtechsbd@gmail.com</p>
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 rounded">

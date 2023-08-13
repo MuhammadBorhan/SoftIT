@@ -6,6 +6,13 @@ import { MdArrowRightAlt, MdEmail, MdSendAndArchive } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const FooterTop = () => {
+  // const handleWhatsAppClick = () => {
+  //   const phoneNumber = "+8801402723759";
+  //   const message = "Hello, I have a question!";
+  //   const encodedMessage = encodeURIComponent(message);
+  //   const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+  //   window.open(whatsappLink, "_blank");
+  // };
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 container bg-gray-900 text-white mx-auto p-10 relative top-24">
       <div>
@@ -15,7 +22,7 @@ const FooterTop = () => {
         <p className="flex items-center gap-2 ">
           {" "}
           <ImLocation className="w-12 h-12 rounded-full text-orange-600" />
-          House 2/17, B-Block, Lalmatia, Mohammadpur, Dhaka -1212
+          House 1/3, Block #B, Lalmatia, Mohammadpur, Dhaka -1212
         </p>
         <p className="flex items-center gap-2 my-4">
           {" "}
@@ -51,25 +58,35 @@ const FooterTop = () => {
           Subscribe newsletter
         </h3>
         <p className="mb-2 font-mono">Get latest updates and offers</p>
-        <div>
+        <div className="relative">
           <input
             type="text"
             placeholder="Send Your Email"
             className="border p-2 pr-20 w-full text-black rounded-full"
           />
           <button>
-            <MdSendAndArchive className="w-20 h-10 relative hidden lg:block lg:left-[292px] lg:bottom-[41px]  text-white bg-orange-500 rounded-full px-2" />
+            <MdSendAndArchive className="w-20 h-10 absolute right-0 top-0 text-white bg-orange-500 rounded-full px-2" />
           </button>
         </div>
         <p className="lg:text-xl font-bold mt-2">Follow Us</p>
         <div className="flex gap-6 mt-2">
-          <a href="facebook.com">
+          <a target="_blank" href="https://www.facebook.com/mdborhan.uddin.121">
             <FaFacebook className="" />
           </a>
-          <a href="Whatsapp.com">
+          {/* <button onClick={handleWhatsAppClick}>
+            <BsWhatsapp className="" />
+          </button> */}
+          <a
+            target="_blank"
+            href={`https://wa.me/+8801402723759`}
+            rel="noopener noreferrer"
+          >
             <BsWhatsapp className="" />
           </a>
-          <a href="Linkedin.com">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/md-borhan-uddin-3a37a61a4/"
+          >
             <BsLinkedin className="" />
           </a>
         </div>

@@ -10,12 +10,12 @@ const Intro = () => {
       <div className="grid grid-cols-12 p-0 lg:p-16 items-center">
         <div className="col-span-12 lg:col-span-9 shadow-none lg:shadow-md p-6 lg:p-8 lg:pr-60 bg-gray-100">
           <h1
-            className="text-3xl font-bold mb-4 pb-3 max-w-fit lg:mx-0 mx-auto"
+            className="text-xl md:text-2xl font-bold mb-4 pb-3 max-w-fit lg:mx-0 mx-auto"
             style={{ borderBottom: "2px dashed" }}
           >
             A Little Intro About Organization
           </h1>
-          <p className="text-justify text-xl">
+          <p className="text-justify text-">
             OrangeToolz is a digital agency (for apps, web and SaaS) that
             develops solutions that are aimed at achieving high ROI. As a
             leading digital agency, our core competencies are technology
@@ -29,30 +29,37 @@ const Intro = () => {
           </p>
           <div className="py-6">
             <ul className="grid grid-cols-1 lg:grid-cols-2">
-              <li className="text-xl font-bold flex my-3 ">
+              <li className=" font-bold flex my-3 ">
                 {" "}
-                <AiOutlineSolution className="text-3xl font-bold text-orange-500 mr-2" />{" "}
-                Well-engineered digital solutions
+                <AiOutlineSolution className="text-xl md:text-3xl font-bold text-orange-500 mr-2" />{" "}
+                <span className="md:text-xl">
+                  {" "}
+                  Well-engineered digital solutions
+                </span>
               </li>
-              <li className="text-xl font-bold flex my-3">
+              <li className=" font-bold flex my-3">
                 {" "}
-                <AiTwotoneFileAdd className="text-3xl font-bold text-orange-500 mr-2" />{" "}
-                Leading development platforms
+                <AiTwotoneFileAdd className="text-xl md:text-3xl font-bold text-orange-500 mr-2" />{" "}
+                <span className="md:text-xl">
+                  Leading development platforms
+                </span>
               </li>
-              <li className="text-xl font-bold flex my-3">
+              <li className="font-bold flex my-3">
                 {" "}
-                <SiExpensify className="text-3xl font-bold text-orange-500 mr-2" />{" "}
-                Professional experience
+                <SiExpensify className="text-xl md:text-3xl font-bold text-orange-500 mr-2" />{" "}
+                <span className="md:text-xl">Professional experience</span>
               </li>
-              <li className="text-xl font-bold flex my-3">
+              <li className="font-bold flex my-3">
                 {" "}
-                <TfiSupport className="text-3xl font-bold text-orange-500 mr-2" />{" "}
-                Physically & Virtually support
+                <TfiSupport className="text-xl md:text-3xl font-bold text-orange-500 mr-2" />{" "}
+                <span className="md:text-xl">
+                  Physically & Virtually support
+                </span>
               </li>
             </ul>
           </div>
-          <button className="bg-gradient-to-r from-orange-400 via-orange-600 to-orange-800 px-4 py-2 block mx-auto lg:mx-0 rounded-full text-white font-bold text-xl">
-            <Link to="/contact">Hire Us For Next Project</Link>
+          <button className="bg-gradient-to-r from-orange-400 via-orange-600 to-orange-800 px-4 py-2 block mx-auto lg:mx-0 rounded-full text-white font-bold text-sm md:text-xl">
+            <Link to="/contact">Hire us for next project</Link>
           </button>
         </div>
       </div>

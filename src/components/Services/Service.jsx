@@ -18,8 +18,9 @@ const Service = ({ title, img, desc, icon }) => {
     >
       <span className="">{icon}</span>
       <div className="card-body items-center text-center text-black">
-        <h2 className="card-title mb-6">{title}</h2>
-        <p className="text-center">{desc}</p>
+        <h2 className="md:text-lg mb-2 md:mb-4 text-gray-600">{title}</h2>
+        <p className="text-center font-light hidden md:block">{desc}</p>
+        <p className="text-center font-light text-sm block md:hidden">{desc}</p>
       </div>
     </div>
   );
