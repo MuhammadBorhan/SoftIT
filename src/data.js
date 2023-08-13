@@ -10,6 +10,8 @@ import apex from "../src/assets/clientimg/apex.jpg";
 import rupchanda from "../src/assets/clientimg/rupchada.png";
 import minister from "../src/assets/clientimg/minister.jpg";
 import walton from "../src/assets/clientimg/walton.jpg";
+import alamin from "../src/assets/alamin.jpg";
+import fahad from "../src/assets/fahad.jpg";
 
 // navigation
 export const navigation = [
@@ -342,13 +344,13 @@ export const teamMates = [
     ],
   },
   {
-    image: "https://i.ibb.co/khf7h5q/mayin.jpg",
-    name: "Mr. Mayin",
-    position: "Fullstack Developer",
+    image: alamin,
+    name: "Al-amin Saifur",
+    position: "ReactJS Developer",
     media: [
       {
         name: "facebook",
-        link: "https://web.facebook.com/md.mayinuddin.900",
+        link: "https://www.facebook.com/alamin0022",
       },
       {
         name: "linkedin",
@@ -366,8 +368,8 @@ export const teamMates = [
   },
   {
     image: "https://i.ibb.co/mzp4QhR/borhan-Old.jpg",
-    name: "Mr. Borhan",
-    position: "Frontend Developer",
+    name: "Md Borhan Uddin",
+    position: "Software Developer",
     media: [
       {
         name: "facebook",
@@ -388,13 +390,13 @@ export const teamMates = [
     ],
   },
   {
-    image: "https://i.ibb.co/Rvr6Ht8/IMG-20221230-175538.jpg",
-    name: "Borhan",
-    position: "Web Developer",
+    image: fahad,
+    name: "Fahad Bin Bashar",
+    position: "Senior Web Developer",
     media: [
       {
         name: "facebook",
-        link: "https://web.facebook.com/mdborhan.uddin.121",
+        link: "https://www.facebook.com/fahadbinbashar",
       },
       {
         name: "linkedin",
