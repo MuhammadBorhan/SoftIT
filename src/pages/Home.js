@@ -12,12 +12,14 @@ import WorkedWith from "../components/WorkedWith/WorkedWith";
 import WorkingStep from "../components/WorkingStep/WorkingStep";
 import { ChangeTitle } from "../utils/ChangeTitle";
 import Features from "../components/Features/Features";
+import HeaderSlider from "../components/HeaderSlider/HeaderSlider";
 
 const Home = () => {
   ChangeTitle("Home");
   return (
     <div className="">
-      <Slider />
+      {/* <Slider /> */}
+      <HeaderSlider />
       {/* <Goal /> */}
       <Intro />
       <Services />

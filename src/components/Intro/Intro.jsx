@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Intro = () => {
   return (
-    <div className="lg:mb-[-400px]">
-      <div className="grid grid-cols-12 p-0 lg:p-16 items-center">
+    <div className="lg:mb-[-400px] lg:py-8">
+      <div className="grid grid-cols-12 items-center">
         <div className="col-span-12 lg:col-span-9 shadow-none lg:shadow-md p-6 lg:p-8 lg:pr-60 bg-gray-100">
           <h1
             className="text-xl md:text-2xl font-bold mb-4 pb-3 max-w-fit lg:mx-0 mx-auto"
@@ -63,7 +63,7 @@ const Intro = () => {
           </button>
         </div>
       </div>
-      <div className="relative bottom-[520px] left-[900px]">
+      <div className="relative bottom-[420px] left-[900px]">
         <img
           src="https://www.softwaresuggest.com/blog/wp-content/uploads/2019/04/Effective-method-to-Choose-Employee-Performance-Software-That-Eases-HR-Pain-Points-ss-blog.png"
           alt="hire us"

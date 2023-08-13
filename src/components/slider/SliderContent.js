@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SliderContent = ({ activeIndex, sliderImage }) => {
   return (
-    <section className="mt-20 h-screen">
+    <section className="mt-20">
       {sliderImage.map((slide, index) => (
         <div
           key={index}

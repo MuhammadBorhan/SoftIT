@@ -8,8 +8,10 @@ const MeetWithTeam = () => {
   return (
     <div className="px-10 py-12 bg-slate-50">
       <div className="text-center ">
-        <h1 className="text-4xl capitalize pb-4 horizontal">Meet Our Team</h1>
-        <p className="my-6 text-xl lg:w-3/5 mx-auto font-sans">
+        <h1 className="text-xl md:text-3xl capitalize pb-4 horizontal">
+          Meet Our Team
+        </h1>
+        <p className="my-6  lg:w-3/5 mx-auto font-sans">
           The terms “computer skills” and “software skills” are often used
           interchangeably, as they refer to very similar knowledge. You can't
           have computer skills without knowing certain software programs.

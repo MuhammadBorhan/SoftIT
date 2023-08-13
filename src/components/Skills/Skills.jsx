@@ -10,8 +10,10 @@ const Skills = () => {
   return (
     <div className="px-10 my-12 bg-gray-100">
       <div className="text-center ">
-        <h1 className="text-4xl capitalize pb-4 horizontal pt-6">Our Skills</h1>
-        <p className="my-6 text-xl lg:w-3/5 mx-auto font-sans">
+        <h1 className="text-xl md:text-3xl capitalize pb-4 horizontal pt-6">
+          Our Skills
+        </h1>
+        <p className="my-6lg:w-3/5 mx-auto font-sans">
           The terms “computer skills” and “software skills” are often used
           interchangeably, as they refer to very similar knowledge. You can't
           have computer skills without knowing certain software programs.
@@ -45,45 +47,41 @@ const Skills = () => {
         >
           <div className="grid grid-cols-2 lg:grid-cols-4 text-center items-center py-6 ">
             <div>
-              <p className="text-5xl font-bold my-4">
+              <p className="text-2xl md:text-4xl font-bold my-4">
                 {" "}
                 {counterOn && (
                   <CountUp start={0} end={50} duration={2.5} delay={0} />
                 )}
                 +
               </p>
-              <p className="text-xl text-blue-400 font-bold">Our Staffs</p>
+              <p className=" text-blue-500 font-bold">Our Staffs</p>
             </div>
             <div className="py-12 lg:py-0">
-              <p className="text-5xl font-bold my-4">
+              <p className="text-2xl md:text-4xl font-bold my-4">
                 {counterOn && (
                   <CountUp start={0} end={150} duration={3.5} delay={0} />
                 )}
                 +
               </p>
-              <p className="text-xl text-blue-400 font-bold">Our Clients</p>
+              <p className=" text-blue-500 font-bold">Our Clients</p>
             </div>
             <div className="pb-12 lg:pb-0">
-              <p className="text-5xl font-bold my-4">
+              <p className="text-2xl md:text-4xl font-bold my-4">
                 {counterOn && (
                   <CountUp start={0} end={220} duration={4.5} delay={0} />
                 )}
                 +
               </p>
-              <p className="text-xl text-blue-400 font-bold">
-                Completed Projects
-              </p>
+              <p className=" text-blue-500 font-bold">Completed Projects</p>
             </div>
             <div className="pb-12 lg:pb-0">
-              <p className="text-5xl font-bold my-4">
+              <p className="text-2xl md:text-4xl font-bold my-4">
                 {counterOn && (
                   <CountUp start={0} end={180} duration={3.5} delay={0} />
                 )}
                 +
               </p>
-              <p className="text-xl text-blue-400 font-bold">
-                Running Projects
-              </p>
+              <p className=" text-blue-500 font-bold">Running Projects</p>
             </div>
           </div>
         </ScrollTrigger>
