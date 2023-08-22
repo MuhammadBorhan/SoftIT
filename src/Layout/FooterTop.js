@@ -27,7 +27,7 @@ const FooterTop = () => {
         <p className="flex items-center gap-2 my-4">
           {" "}
           <MdEmail className="w-8 h-8 rounded-full text-orange-600" />{" "}
-          info@comtech.com
+          comtechsbd@gmail.com
         </p>
         <p className="flex items-center gap-2 ">
           {" "}
